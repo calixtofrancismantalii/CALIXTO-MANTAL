@@ -1,0 +1,233 @@
+@media (max-width: 481px) {
+  .download-button {
+    text-align: center;
+    margin-top: 50px;
+  }
+  .row div {
+    flex: none;
+  }
+  nav {
+    padding: 0px 10px;
+    border-bottom: solid 1px rgb(24, 46, 96);
+  }
+  nav #mobile-menu {
+    display: block;
+    font-size: 3rem;
+  }
+  nav ul {
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    background-color: rgb(24, 46, 96);
+    top: 65px;
+    left: 0;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 0vh;
+    overflow: hidden;
+  }
+  #home {
+    padding: 10px;
+  }
+  #home #hero-section .text-image-wrapper {
+    height: inherit !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center !important;
+  }
+  #home #hero-section .text-image-wrapper #hero-text {
+    width: 100%;
+    text-align: center;
+    margin-top: 80px;
+  }
+  #home #hero-section .text-image-wrapper #hero-text #greetings {
+    font-size: 2rem;
+    margin-bottom: 25px;
+    color: #48e9f1;
+  }
+  #home #hero-section .text-image-wrapper #hero-text #name {
+    font-size: 3rem;
+  }
+  #home #hero-section .text-image-wrapper #hero-text #slogan {
+    font-size: 1.5rem;
+    margin-bottom: 35px;
+    margin-top: -10px;
+  }
+  #home #hero-section .text-image-wrapper .show-more-button .btn-wrapper {
+    border: solid 1px #48e9f1;
+    width: 100% !important;
+  }
+  #home #hero-section .text-image-wrapper .show-more-button .btn-wrapper button {
+    width: 100% !important;
+  }
+  #home #hero-section .text-image-wrapper #image-wrapper {
+    width: 100%;
+    display: none;
+  }
+  #socials {
+    right: -8px !important;
+  }
+  .text-image-wrapper div:nth-child(2) {
+    display: none;
+  }
+  #about-section {
+    height: auto;
+  }
+  #about-section #about-wrapper {
+    width: 80%;
+    margin: auto;
+    flex-direction: column;
+  }
+  #about-section #about-wrapper .content-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  #about-section #about-wrapper .content-wrapper .text-wrapper {
+    width: 100%;
+  }
+  #about-section #about-wrapper .content-wrapper .image-wrapper {
+    width: 100%;
+    margin-top: 50px;
+  }
+  #about-section #about-wrapper .content-wrapper .image-wrapper img {
+    width: 250px;
+    position: absolute;
+    margin-bottom: -30px;
+    transition: 0.4s;
+  }
+  #work-experience-section {
+    height: auto;
+    padding-top: 100px;
+  }
+  #work-experience-section #work-experience-wrapper {
+    width: 90%;
+    margin: auto;
+  }
+  #work-experience-section #work-experience-wrapper .content-wrapper {
+    flex-direction: column;
+    margin: auto;
+  }
+  #work-experience-section #work-experience-wrapper .content-wrapper #year-menu {
+    width: 100%;
+  }
+  #work-experience-section #work-experience-wrapper .content-wrapper #year-menu ul {
+    background-color: #162342;
+    margin-bottom: 20px;
+    overflow: hidden;
+    height: 60px;
+  }
+  #work-experience-section #work-experience-wrapper .content-wrapper #year-menu ul li {
+    padding: 20px 12px;
+    color: #94a3b8;
+    font-size: 0.9rem;
+  }
+  #work-experience-section #work-experience-wrapper .content-wrapper #year-menu ul li:nth-child(1) {
+    border-bottom: solid 1px #1a3554;
+    position: relative;
+  }
+  #work-experience-section #work-experience-wrapper .content-wrapper #year-menu ul li:nth-child(1) #year-menu-arrow-down {
+    position: absolute;
+    display: inline-block;
+    right: 30px;
+  }
+  #work-experience-section #work-experience-wrapper .content-wrapper #year-menu ul li a:hover {
+    cursor: pointer;
+  }
+  #work-experience-section #work-experience-wrapper #year-description {
+    width: 100%;
+  }
+  #work-experience-section #work-experience-wrapper #year-description .work-experience-card-wrapper {
+    margin-left: 0px;
+  }
+  #languages-and-skills-section {
+    padding-top: 200px;
+  }
+  #languages-and-skills-section #languages-wrapper {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  #languages-and-skills-section #languages-wrapper .app-card {
+    width: 100%;
+  }
+  #languages-and-skills-section #languages-wrapper .app-card img {
+    width: 3.8rem;
+    display: inline-block;
+  }
+  #languages-and-skills-section #languages-wrapper .app-card p {
+    margin-left: 1.5rem;
+  }
+  #project-section {
+    height: auto;
+    padding-top: 100px;
+  }
+  #project-section #project-wrapper {
+    width: 90%;
+  }
+  #project-section #project-wrapper .project-folder-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  #project-section #project-wrapper .project-folder-row div {
+    width: 100%;
+  }
+  #project-section #project-wrapper .project-folder-row .project-folder-card {
+    margin: 15px 0px;
+  }
+  #projects-section #graphics-modal {
+    height: 100vh !important;
+    overflow: scroll;
+    position: fixed;
+  }
+  #projects-section #graphics-modal #modal-content {
+    width: 100%;
+  }
+  #projects-section #graphics-modal #largeImageWrapper {
+    flex-direction: column;
+    align-items: center;
+    width: 100% !important;
+  }
+  #projects-section #graphics-modal #largeImageWrapper #largeImage {
+    width: auto !important;
+  }
+  #projects-section #graphics-modal .show-more-button {
+    align-items: flex-start;
+  }
+  #projects-section #graphics-modal .show-more-button .btn-wrapper {
+    width: 100% !important;
+    background-color: inherit !important;
+    border-top: none;
+    border-left: none;
+  }
+  #projects-section #graphics-modal .show-more-button .btn-wrapper button {
+    background-color: inherit !important;
+    width: 100% !important;
+  }
+  #projects-section .featured-graphics-wrapper {
+    flex-wrap: wrap !important;
+  }
+  #contact-section {
+    height: 100vh;
+    padding-top: 100px;
+  }
+  #contact-section #contact-wrapper {
+    width: 90%;
+  }
+  #contact-section #contact-wrapper #contact-content {
+    height: 70vh;
+    border: solid 1px white;
+    padding: 10px;
+  }
+  #contact-section #contact-wrapper #contact-content #contact-text-heading {
+    font-size: 3.5rem;
+    color: #e2e8f0;
+  }
+  footer {
+    font-size: 0.8rem;
+  }
+}/*# sourceMappingURL=responsive.css.map */

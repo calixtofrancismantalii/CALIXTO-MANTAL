@@ -1,0 +1,13 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  color: #48e9f1;
+}
+
+#main-menu {
+  background-color: #000137;
+}
