@@ -572,6 +572,8 @@ nav ul li a {
 }
 #projects-section .websiteMainContainer {
   width: 650px;
+  height: 100vh;
+  overflow: auto;
   padding: 20px;
   margin-left: 0px;
   transition: 0.4s;
@@ -599,7 +601,9 @@ nav ul li a {
 }
 #projects-section .graphicsMainContainer {
   width: 650px;
-  height: 350px;
+  height: 100vh;
+  overflow: auto;
+  padding: 20px;
   margin-right: -300px;
   transition: 0.4s;
   opacity: 0.4;
@@ -607,6 +611,7 @@ nav ul li a {
 #projects-section .graphicsMainContainer .graphicBox {
   background-color: #102340;
   display: flex;
+  align-items: center;
   margin-bottom: 20px;
 }
 #projects-section .graphicsMainContainer .graphicBox .graphicInformation {
@@ -626,6 +631,9 @@ nav ul li a {
   border-bottom: solid 1px #48e9f1;
 }
 #projects-section .websiteMainContainer::-webkit-scrollbar {
+  display: none;
+}
+#projects-section .graphicsMainContainer::-webkit-scrollbar {
   display: none;
 }
 

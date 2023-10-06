@@ -10,6 +10,8 @@ projectMenu[0].setAttribute("class", "projectMenu active");
 for (var h = 0; graphicLink.length > h; h++) {
   graphicLink[h].style.pointerEvents = "none";
 }
+//By default graphic disable scolling
+graphicBox.style.overflow = "hidden";
 
 //Focus on Graphics
 function slideGraphic() {
@@ -17,6 +19,11 @@ function slideGraphic() {
   graphicBox.style.opacity = "100";
   webBox.style.marginLeft = "-300px";
   webBox.style.opacity = "0.4";
+
+  //Enable scolling
+  graphicBox.style.overflow = "auto";
+  //Disable scolling
+  webBox.style.overflow = "hidden";
 
   //Activate Graphic Links
   for (var h = 0; graphicLink.length > h; h++) {
@@ -42,6 +49,11 @@ function slideWeb() {
   webBox.style.opacity = "100";
   graphicBox.style.marginRight = "-300px";
   graphicBox.style.opacity = "0.4";
+
+  //Disable scolling
+  graphicBox.style.overflow = "hidden";
+  //Enable scolling
+  webBox.style.overflow = "auto";
 
   //Activate Website Links
   let websiteLink = document.querySelectorAll(".websiteLink");
