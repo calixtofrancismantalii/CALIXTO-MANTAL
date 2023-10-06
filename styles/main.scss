@@ -15,6 +15,10 @@ body {
   background-color: #0a192f;
 }
 
+body::-webkit-scrollbar {
+  display: none;
+}
+
 //Global style rules
 .container {
   max-width: 1200px;
@@ -426,7 +430,7 @@ nav {
             flex-wrap: wrap;
             list-style-type: "- ";
             padding-top: 20px;
-            padding-left: 30px;
+            padding-left: 20px;
             li {
               color: #94a3b8;
               margin-bottom: 10px;
@@ -453,7 +457,6 @@ nav {
     justify-content: flex-end;
 
     .col-app-icons {
-      border-bottom: solid 2px #b1b3b63c;
       margin: 10px;
       text-align: center;
 
@@ -534,9 +537,8 @@ nav {
 
 //Projects
 #projects-section {
-  // background-color: rebeccapurple;
-  // height: 100vh;
   padding-top: 100px;
+  height: auto;
 
   #graphics-modal {
     height: 100vh;
@@ -634,24 +636,22 @@ nav {
   }
 
   .title-section {
-    // border: solid 1px black;
     flex-direction: column;
     justify-content: center;
     margin-bottom: 20px;
   }
 
   #projects-menu-wrapper {
-    // border: solid 1px white;
     display: flex;
     justify-content: center;
 
     li {
       padding: 20px;
       width: 25%;
+      text-align: center;
     }
     .active {
       border-bottom: solid 2px #48e9f1;
-      background-color: #102340;
       color: #48e9f1;
     }
     li:hover {
@@ -662,7 +662,6 @@ nav {
   }
 
   .featured-graphics-wrapper {
-    margin-top: 100px;
     justify-content: center;
     flex-wrap: wrap;
     // border: solid 1px red;
@@ -696,6 +695,83 @@ nav {
     .graphic-cards:hover {
       color: #48e9f1;
     }
+  }
+
+  .webAndGraphicsBoxWrapper {
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  .websiteMainContainer {
+    width: 650px;
+    padding: 20px;
+    margin-left: 0px;
+    transition: 0.4s;
+
+    .websiteBox {
+      background-color: #102340;
+      display: flex;
+      margin-bottom: 20px;
+
+      .websiteInformation {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 20px;
+      }
+
+      .websiteName {
+        color: #48e9f1;
+      }
+
+      .websiteLink {
+        color: #48e9f1;
+        text-decoration: none;
+      }
+
+      .websiteLink:hover {
+        border-bottom: solid 1px #48e9f1;
+      }
+    }
+  }
+
+  .graphicsMainContainer {
+    width: 650px;
+    height: 350px;
+    margin-right: -300px;
+    transition: 0.4s;
+    opacity: 0.4;
+
+    .graphicBox {
+      background-color: #102340;
+      display: flex;
+      margin-bottom: 20px;
+
+      .graphicInformation {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 20px;
+      }
+
+      .graphicName {
+        color: #48e9f1;
+      }
+
+      .graphicLink {
+        color: #48e9f1;
+        text-decoration: none;
+      }
+
+      .graphicLink:hover {
+        border-bottom: solid 1px #48e9f1;
+      }
+    }
+  }
+
+  .websiteMainContainer::-webkit-scrollbar {
+    display: none;
   }
 }
 //Contact

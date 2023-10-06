@@ -15,6 +15,10 @@ body {
   background-color: #0a192f;
 }
 
+body::-webkit-scrollbar {
+  display: none;
+}
+
 .container {
   max-width: 1200px;
   margin: auto;
@@ -354,7 +358,7 @@ nav ul li a {
   flex-wrap: wrap;
   list-style-type: "- ";
   padding-top: 20px;
-  padding-left: 30px;
+  padding-left: 20px;
 }
 #work-experience-section #work-experience-wrapper .content-wrapper #year-description .work-experience-card-wrapper .work-description li {
   color: #94a3b8;
@@ -374,7 +378,6 @@ nav ul li a {
   justify-content: flex-end;
 }
 #languages-and-skills-section .row-app-icon .col-app-icons {
-  border-bottom: solid 2px rgba(177, 179, 182, 0.2352941176);
   margin: 10px;
   text-align: center;
 }
@@ -437,6 +440,7 @@ nav ul li a {
 
 #projects-section {
   padding-top: 100px;
+  height: auto;
 }
 #projects-section #graphics-modal {
   height: 100vh;
@@ -522,10 +526,10 @@ nav ul li a {
 #projects-section #projects-menu-wrapper li {
   padding: 20px;
   width: 25%;
+  text-align: center;
 }
 #projects-section #projects-menu-wrapper .active {
   border-bottom: solid 2px #48e9f1;
-  background-color: #102340;
   color: #48e9f1;
 }
 #projects-section #projects-menu-wrapper li:hover {
@@ -534,7 +538,6 @@ nav ul li a {
   cursor: pointer;
 }
 #projects-section .featured-graphics-wrapper {
-  margin-top: 100px;
   justify-content: center;
   flex-wrap: wrap;
 }
@@ -561,6 +564,69 @@ nav ul li a {
 }
 #projects-section .featured-graphics-wrapper .graphic-cards:hover {
   color: #48e9f1;
+}
+#projects-section .webAndGraphicsBoxWrapper {
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+#projects-section .websiteMainContainer {
+  width: 650px;
+  padding: 20px;
+  margin-left: 0px;
+  transition: 0.4s;
+}
+#projects-section .websiteMainContainer .websiteBox {
+  background-color: #102340;
+  display: flex;
+  margin-bottom: 20px;
+}
+#projects-section .websiteMainContainer .websiteBox .websiteInformation {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 20px;
+}
+#projects-section .websiteMainContainer .websiteBox .websiteName {
+  color: #48e9f1;
+}
+#projects-section .websiteMainContainer .websiteBox .websiteLink {
+  color: #48e9f1;
+  text-decoration: none;
+}
+#projects-section .websiteMainContainer .websiteBox .websiteLink:hover {
+  border-bottom: solid 1px #48e9f1;
+}
+#projects-section .graphicsMainContainer {
+  width: 650px;
+  height: 350px;
+  margin-right: -300px;
+  transition: 0.4s;
+  opacity: 0.4;
+}
+#projects-section .graphicsMainContainer .graphicBox {
+  background-color: #102340;
+  display: flex;
+  margin-bottom: 20px;
+}
+#projects-section .graphicsMainContainer .graphicBox .graphicInformation {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 20px;
+}
+#projects-section .graphicsMainContainer .graphicBox .graphicName {
+  color: #48e9f1;
+}
+#projects-section .graphicsMainContainer .graphicBox .graphicLink {
+  color: #48e9f1;
+  text-decoration: none;
+}
+#projects-section .graphicsMainContainer .graphicBox .graphicLink:hover {
+  border-bottom: solid 1px #48e9f1;
+}
+#projects-section .websiteMainContainer::-webkit-scrollbar {
+  display: none;
 }
 
 #contact-section {
