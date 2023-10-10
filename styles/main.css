@@ -378,7 +378,7 @@ nav ul li a {
   justify-content: flex-end;
 }
 #languages-and-skills-section .row-app-icon .col-app-icons {
-  margin: 10px;
+  margin: 20px;
   text-align: center;
 }
 #languages-and-skills-section .row-app-icon .col-app-icons .icon-wrapper {
@@ -388,7 +388,6 @@ nav ul li a {
 #languages-and-skills-section .row-app-icon .col-app-icons .icon-wrapper .icon-frame {
   width: 45px;
   height: 45px;
-  padding: 10px;
 }
 #languages-and-skills-section .row-app-icon .col-app-icons .icon-wrapper .icon-frame img {
   width: 100%;
@@ -439,7 +438,7 @@ nav ul li a {
 }
 
 #projects-section {
-  padding-top: 100px;
+  padding-top: 70px;
   height: auto;
 }
 #projects-section #graphics-modal {
@@ -515,9 +514,8 @@ nav ul li a {
   cursor: pointer;
 }
 #projects-section .title-section {
-  flex-direction: column;
-  justify-content: center;
-  margin-bottom: 20px;
+  justify-content: flex-start;
+  margin-bottom: 60px;
 }
 #projects-section #projects-menu-wrapper {
   display: flex;

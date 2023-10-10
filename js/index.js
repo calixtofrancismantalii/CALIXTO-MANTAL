@@ -56,18 +56,26 @@ function carousel() {
 }
 
 carousel();
-var body = document.querySelector("body");
-const largeImage = document.getElementById("largeImage");
 
-function openModal(src) {
+//OPEN MODAL
+function openModal(image, title) {
+  var body = document.querySelector("body");
+  var largeImage = document.getElementById("largeImage");
+  var featuredProjectTitleModal = document.querySelector(
+    "#featuredProjectTitleModal"
+  );
   let modal = document.getElementById("graphics-modal");
+
   modal.style.display = "block";
   body.style.overflow = "hidden";
 
-  largeImage.src = src;
+  largeImage.src = image;
+  console.log(title);
+  featuredProjectTitleModal.innerHTML = title;
 }
 
 function closeModal() {
+  var body = document.querySelector("body");
   let modal = document.getElementById("graphics-modal");
   modal.style.display = "none";
   body.style.overflow = "auto";
