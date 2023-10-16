@@ -169,12 +169,11 @@ nav {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  // background-image: url(/images/background-color-for-image-hero.png);
+  // // background-image: url(/images/background-color-for-image-hero.png);
   // background-size: contain;
   // background-repeat: no-repeat;
   // background-position: right;
-  overflow: visible;
-  margin-top: 20px;
+  // overflow: visible;
 
   #hero-section {
     // border: solid 1px rebeccapurple;
@@ -206,11 +205,17 @@ nav {
           font-size: 5rem;
         }
 
-        #slogan {
+        #position {
           color: #94a3b8;
           font-size: 2.5rem;
           margin-bottom: 35px;
           margin-top: -10px;
+        }
+
+        #slogan {
+          // text-align: center;
+          line-height: 2rem;
+          font-size: 1.2rem;
         }
 
         .show-more-button {
@@ -314,6 +319,7 @@ nav {
       .text-wrapper {
         // border: solid 1px yellow;
         width: 50%;
+        // text-align: justify;
       }
 
       .image-wrapper {
@@ -468,7 +474,7 @@ nav {
           width: 45px;
           height: 45px;
           // border: solid 1px white;
-          // padding: 10px;
+          padding: 0px 3px;
 
           img {
             width: 100%;
