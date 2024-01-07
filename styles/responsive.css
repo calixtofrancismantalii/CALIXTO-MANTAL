@@ -4,21 +4,28 @@
     margin-top: 50px;
   }
   .row div {
-    flex: none;
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
   }
   nav {
     padding: 0px 10px;
-    border-bottom: solid 1px rgb(24, 46, 96);
+    border-bottom: solid 1px #182e60;
   }
   nav #mobile-menu {
     display: block;
     font-size: 3rem;
   }
   nav ul {
-    flex-direction: column;
-    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     position: absolute;
-    background-color: rgb(24, 46, 96);
+    background-color: #182e60;
     top: 65px;
     left: 0;
     margin: 0px;
@@ -32,9 +39,16 @@
   }
   #home #hero-section .text-image-wrapper {
     height: inherit !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: center !important;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+            align-items: center !important;
   }
   #home #hero-section .text-image-wrapper #hero-text {
     width: 100%;
@@ -77,11 +91,19 @@
   #about-section #about-wrapper {
     width: 80%;
     margin: auto;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   #about-section #about-wrapper .content-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   #about-section #about-wrapper .content-wrapper .text-wrapper {
     width: 100%;
@@ -94,6 +116,7 @@
     width: 250px;
     position: absolute;
     margin-bottom: -30px;
+    -webkit-transition: 0.4s;
     transition: 0.4s;
   }
   #work-experience-section {
@@ -105,7 +128,10 @@
     margin: auto;
   }
   #work-experience-section #work-experience-wrapper .content-wrapper {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     margin: auto;
   }
   #work-experience-section #work-experience-wrapper .content-wrapper #year-menu {
@@ -146,10 +172,18 @@
   #languages-and-skills-section #languages-wrapper {
     width: 90%;
     margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
   #languages-and-skills-section #languages-wrapper .app-card {
     width: 100%;
@@ -169,9 +203,14 @@
     width: 90%;
   }
   #project-section #project-wrapper .project-folder-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   #project-section #project-wrapper .project-folder-row div {
     width: 100%;
@@ -188,15 +227,22 @@
     width: 100%;
   }
   #projects-section #graphics-modal #largeImageWrapper {
-    flex-direction: column;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     width: 100% !important;
   }
   #projects-section #graphics-modal #largeImageWrapper #largeImage {
     width: auto !important;
   }
   #projects-section #graphics-modal .show-more-button {
-    align-items: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
   }
   #projects-section #graphics-modal .show-more-button .btn-wrapper {
     width: 100% !important;
@@ -209,7 +255,8 @@
     width: 100% !important;
   }
   #projects-section .featured-graphics-wrapper {
-    flex-wrap: wrap !important;
+    -ms-flex-wrap: wrap !important;
+        flex-wrap: wrap !important;
   }
   #contact-section {
     height: 100vh;
@@ -230,4 +277,5 @@
   footer {
     font-size: 0.8rem;
   }
-}/*# sourceMappingURL=responsive.css.map */
+}
+/*# sourceMappingURL=responsive.css.map */

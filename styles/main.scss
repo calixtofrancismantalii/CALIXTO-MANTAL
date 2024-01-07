@@ -196,8 +196,8 @@ nav {
 
         // height: 90vh;
         #greetings {
-          font-size: 2rem;
-          margin-bottom: 25px;
+          font-size: 3.5rem;
+          margin-bottom: 40px;
           color: #48e9f1;
         }
         #name {
@@ -207,15 +207,14 @@ nav {
 
         #position {
           color: #94a3b8;
-          font-size: 2.5rem;
-          margin-bottom: 35px;
-          margin-top: -10px;
+          font-size: 2.7rem;
+          margin-bottom: 50px;
         }
 
         #slogan {
           // text-align: center;
           line-height: 2rem;
-          font-size: 1.2rem;
+          font-size: 1.3rem;
         }
 
         .show-more-button {
@@ -547,7 +546,7 @@ nav {
   height: auto;
 
   #graphics-modal {
-    height: 100vh;
+    // height: 100vh;
     width: 100vw;
     background-color: rgba(0, 0, 0, 0.846);
     position: fixed;
