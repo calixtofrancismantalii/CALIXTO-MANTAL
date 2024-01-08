@@ -139,9 +139,7 @@ nav {
     font-size: 0px; //questionable rule
 
     img {
-      // border-radius: 100%;
       color: #e2e8f0;
-      // border: solid 1px #e2e8f0;
       width: 50px;
       cursor: pointer;
     }
@@ -149,7 +147,6 @@ nav {
 
   ul {
     display: flex;
-    // padding: 10px;
 
     li {
       padding-left: 40px;
@@ -169,20 +166,11 @@ nav {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  // // background-image: url(/images/background-color-for-image-hero.png);
-  // background-size: contain;
-  // background-repeat: no-repeat;
-  // background-position: right;
-  // overflow: visible;
 
   #hero-section {
-    // border: solid 1px rebeccapurple;
     overflow: visible;
 
     .text-image-wrapper {
-      // border: solid 1px orange;
-      // height: 90vh;
-      // padding: 0px 20px;
       display: flex;
       align-items: center;
       overflow: visible;
@@ -496,7 +484,7 @@ nav {
   #graphics-modal {
     height: 100vh;
     width: 100vw;
-    background-color: rgba(0, 0, 0, 0.732);
+    background-color: rgba(0, 0, 0, 0.78);
     position: fixed;
     top: 0;
     z-index: 2;
@@ -522,7 +510,7 @@ nav {
     }
 
     #modal-content {
-      // border: solid 1px white;
+      font-size: 1.3rem;
       margin: auto;
       margin: auto;
       display: flex;
@@ -562,6 +550,7 @@ nav {
               button {
                 background-color: inherit !important;
                 width: 100% !important;
+                font-size: 1.3rem;
               }
             }
           }
@@ -712,6 +701,10 @@ nav {
         flex-direction: column;
         width: 100%;
         padding: 20px;
+
+        .graphicDescription {
+          display: none;
+        }
       }
 
       .graphicName {

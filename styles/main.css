@@ -560,7 +560,7 @@ nav ul li a {
 #projects-section #graphics-modal {
   height: 100vh;
   width: 100vw;
-  background-color: rgba(0, 0, 0, 0.732);
+  background-color: rgba(0, 0, 0, 0.78);
   position: fixed;
   top: 0;
   z-index: 2;
@@ -592,6 +592,7 @@ nav ul li a {
 }
 
 #projects-section #graphics-modal #modal-content {
+  font-size: 1.3rem;
   margin: auto;
   margin: auto;
   display: -webkit-box;
@@ -644,6 +645,7 @@ nav ul li a {
 #projects-section #graphics-modal #modal-content #largeImageWrapper #graphic-description-wrapper .show-more-button .btn-wrapper button {
   background-color: inherit !important;
   width: 100% !important;
+  font-size: 1.3rem;
 }
 
 #projects-section #graphics-modal #modal-content #largeImageWrapper #graphic-description-wrapper #graphic-description {
@@ -831,6 +833,10 @@ nav ul li a {
           flex-direction: column;
   width: 100%;
   padding: 20px;
+}
+
+#projects-section .graphicsMainContainer .graphicBox .graphicInformation .graphicDescription {
+  display: none;
 }
 
 #projects-section .graphicsMainContainer .graphicBox .graphicName {
