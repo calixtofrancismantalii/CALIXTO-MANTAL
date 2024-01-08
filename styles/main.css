@@ -650,6 +650,7 @@ nav ul li a {
 
 #projects-section #graphics-modal #modal-content #largeImageWrapper #graphic-description-wrapper #graphic-description {
   margin: 20px 0px 30px;
+  line-height: 30px;
 }
 
 #projects-section #graphics-modal #images-thumb-wrapper {
