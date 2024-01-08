@@ -214,7 +214,7 @@ nav {
         #slogan {
           // text-align: center;
           line-height: 2rem;
-          font-size: 1.3rem;
+          // font-size: 1.3rem;
         }
 
         .show-more-button {
@@ -317,8 +317,12 @@ nav {
 
       .text-wrapper {
         // border: solid 1px yellow;
-        width: 50%;
-        // text-align: justify;
+        width: 60%;
+        p {
+          // font-size: 19px !important;
+          font-size: 1.3rem;
+          line-height: 30px;
+        }
       }
 
       .image-wrapper {
@@ -330,8 +334,8 @@ nav {
 
         #image-container {
           border: solid 1px #56d8d5;
-          width: 260px;
-          height: 260px;
+          width: 240px;
+          height: 240px;
         }
 
         img {
@@ -484,71 +488,15 @@ nav {
   }
 }
 
-//Project
-#project-section {
-  // height: 100vh;
-  padding-top: 100px;
-  // padding: 75px 0px;
-  display: none;
-
-  #project-wrapper {
-    width: 80%;
-    margin: auto;
-
-    .project-folder-row {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-
-      div {
-        width: 44%;
-      }
-
-      .project-folder-card {
-        padding: 20px 12px;
-        margin: 15px;
-        border-radius: 15px;
-        background-color: #102340;
-        position: relative;
-        border-radius: 5px;
-
-        .fa-folder-open {
-          color: #e2e8f0;
-        }
-
-        .fa-arrow-up-right-from-square {
-          right: 15px;
-          position: absolute;
-        }
-
-        .project-name {
-          color: #48e9f1;
-          text-decoration: none;
-          font-size: 16px;
-          cursor: pointer;
-        }
-
-        .project-name:hover {
-          border-bottom: solid 1px #48e9f1;
-        }
-
-        .project-description {
-          padding: 10px 0px;
-        }
-      }
-    }
-  }
-}
-
 //Projects
 #projects-section {
   padding-top: 70px;
   height: auto;
 
   #graphics-modal {
-    // height: 100vh;
+    height: 100vh;
     width: 100vw;
-    background-color: rgba(0, 0, 0, 0.846);
+    background-color: rgba(0, 0, 0, 0.732);
     position: fixed;
     top: 0;
     z-index: 2;
@@ -654,6 +602,7 @@ nav {
       padding: 20px;
       width: 25%;
       text-align: center;
+      margin-bottom: 40px;
     }
     .active {
       border-bottom: solid 2px #48e9f1;
@@ -669,7 +618,6 @@ nav {
   .featured-graphics-wrapper {
     justify-content: center;
     flex-wrap: wrap;
-    // border: solid 1px red;
 
     .graphic-cards {
       width: 25%;
