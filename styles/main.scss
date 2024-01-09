@@ -91,7 +91,6 @@ button {
   margin-top: -5px;
   margin-left: -5px;
   font-weight: bold;
-  transition: 1s;
   width: inherit;
   height: inherit;
   transition: 0.4s;
@@ -346,6 +345,7 @@ nav {
 //EXPERIENCE
 #work-experience-section {
   padding: 100px 0px;
+  margin-bottom: 70px;
 
   #work-experience-wrapper {
     width: 70%;
@@ -444,6 +444,7 @@ nav {
 //Skills
 #languages-and-skills-section {
   padding: 100px 0px;
+  margin-bottom: 70px;
 
   #languages-wrapper {
     display: flex;
@@ -478,7 +479,9 @@ nav {
 
 //Projects
 #projects-section {
-  padding-top: 70px;
+  margin-bottom: 70px;
+  padding-top: 80px;
+  padding-bottom: 70px;
   height: auto;
 
   #graphics-modal {
@@ -731,27 +734,80 @@ nav {
     display: none;
   }
 }
+
 //Contact
 #contact-section {
-  height: 100vh;
-  padding-top: 200px;
+  height: 70vh;
+  padding-top: 90px;
+  margin-top: 90px;
+  padding-bottom: 60px;
 
   #contact-wrapper {
     width: 70%;
+    display: flex;
     margin: auto;
+    flex-direction: column;
+    justify-content: center;
 
     #contact-content {
-      height: 50vh;
+      height: 55vh;
       border: solid 1px white;
+      // background-color: #102340;
       text-align: center;
       display: flex;
       flex-direction: column;
       justify-content: center;
 
+      p {
+        margin-bottom: 30px;
+        font-size: 1.3rem;
+        line-height: 30px;
+      }
+
       #contact-text-heading {
         font-size: 3.5rem;
         margin-bottom: 30px;
         color: #e2e8f0;
+      }
+
+      #cta-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100px;
+
+        #cta-bg {
+          border: solid 1px #48e9f1;
+          background-color: #48e9f1;
+          border-radius: 3px;
+          width: 29rem;
+          height: 86px;
+
+          #emailBtn {
+            display: block;
+            padding-top: 20px;
+            text-decoration: none;
+            border: solid 1px #48e9f1;
+            background-color: #101c37;
+            color: #48e9f1;
+            cursor: pointer;
+            border-radius: 3px;
+            margin-top: -5px;
+            margin-left: -5px;
+            width: 29rem;
+            height: 65px;
+            font-weight: bold;
+            transition: 0.4s;
+            font-size: 1.9rem;
+          }
+
+          #emailBtn:hover {
+            border-radius: 3px;
+            margin-top: 0px;
+            margin-left: 0px;
+          }
+        }
       }
     }
   }
@@ -762,4 +818,10 @@ footer {
   padding: 25px;
   text-align: center;
   font-size: 0.9rem;
+  line-height: 1.9rem;
+  color: #94a3b8b6;
+
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }

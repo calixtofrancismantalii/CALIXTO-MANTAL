@@ -104,8 +104,6 @@ button {
   margin-top: -5px;
   margin-left: -5px;
   font-weight: bold;
-  -webkit-transition: 1s;
-  transition: 1s;
   width: inherit;
   height: inherit;
   -webkit-transition: 0.4s;
@@ -417,6 +415,7 @@ nav ul li a {
 
 #work-experience-section {
   padding: 100px 0px;
+  margin-bottom: 70px;
 }
 
 #work-experience-section #work-experience-wrapper {
@@ -514,6 +513,7 @@ nav ul li a {
 
 #languages-and-skills-section {
   padding: 100px 0px;
+  margin-bottom: 70px;
 }
 
 #languages-and-skills-section #languages-wrapper {
@@ -553,7 +553,9 @@ nav ul li a {
 }
 
 #projects-section {
-  padding-top: 70px;
+  margin-bottom: 70px;
+  padding-top: 80px;
+  padding-bottom: 70px;
   height: auto;
 }
 
@@ -862,17 +864,29 @@ nav ul li a {
 }
 
 #contact-section {
-  height: 100vh;
-  padding-top: 200px;
+  height: 70vh;
+  padding-top: 90px;
+  margin-top: 90px;
+  padding-bottom: 60px;
 }
 
 #contact-section #contact-wrapper {
   width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   margin: auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 #contact-section #contact-wrapper #contact-content {
-  height: 50vh;
+  height: 55vh;
   border: solid 1px white;
   text-align: center;
   display: -webkit-box;
@@ -887,15 +901,80 @@ nav ul li a {
           justify-content: center;
 }
 
+#contact-section #contact-wrapper #contact-content p {
+  margin-bottom: 30px;
+  font-size: 1.3rem;
+  line-height: 30px;
+}
+
 #contact-section #contact-wrapper #contact-content #contact-text-heading {
   font-size: 3.5rem;
   margin-bottom: 30px;
   color: #e2e8f0;
 }
 
+#contact-section #contact-wrapper #contact-content #cta-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100px;
+}
+
+#contact-section #contact-wrapper #contact-content #cta-wrapper #cta-bg {
+  border: solid 1px #48e9f1;
+  background-color: #48e9f1;
+  border-radius: 3px;
+  width: 29rem;
+  height: 86px;
+}
+
+#contact-section #contact-wrapper #contact-content #cta-wrapper #cta-bg #emailBtn {
+  display: block;
+  padding-top: 20px;
+  text-decoration: none;
+  border: solid 1px #48e9f1;
+  background-color: #101c37;
+  color: #48e9f1;
+  cursor: pointer;
+  border-radius: 3px;
+  margin-top: -5px;
+  margin-left: -5px;
+  width: 29rem;
+  height: 65px;
+  font-weight: bold;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  font-size: 1.9rem;
+}
+
+#contact-section #contact-wrapper #contact-content #cta-wrapper #cta-bg #emailBtn:hover {
+  border-radius: 3px;
+  margin-top: 0px;
+  margin-left: 0px;
+}
+
 footer {
   padding: 25px;
   text-align: center;
   font-size: 0.9rem;
+  line-height: 1.9rem;
+  color: #94a3b8b6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
 }
 /*# sourceMappingURL=main.css.map */
