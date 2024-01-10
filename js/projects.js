@@ -21,7 +21,7 @@ function slideGraphic() {
   webBox.style.opacity = "0.4";
 
   //Enable scolling
-  graphicBox.style.overflow = "auto";
+  graphicBox.style.overflowY = "scroll";
   //Disable scolling
   webBox.style.overflow = "hidden";
 
@@ -53,7 +53,7 @@ function slideWeb() {
   //Disable scolling
   graphicBox.style.overflow = "hidden";
   //Enable scolling
-  webBox.style.overflow = "auto";
+  webBox.style.overflowY = "scroll";
 
   //Activate Website Links
   let websiteLink = document.querySelectorAll(".websiteLink");
