@@ -162,7 +162,7 @@ nav #my-logo {
 
 nav #my-logo img {
   color: #e2e8f0;
-  width: 50px;
+  width: 45px;
   cursor: pointer;
 }
 
@@ -183,7 +183,7 @@ nav ul li a {
 
 #home {
   position: relative;
-  height: 90vh;
+  height: 85vh;
   overflow: hidden;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -242,6 +242,7 @@ nav ul li a {
 
 #home #hero-section .text-image-wrapper #hero-text #slogan {
   line-height: 2rem;
+  font-size: 1.3rem;
 }
 
 #home #hero-section .text-image-wrapper #hero-text .show-more-button {
@@ -287,53 +288,6 @@ nav ul li a {
 
 #home #hero-section .text-image-wrapper #image-wrapper img {
   width: 85%;
-}
-
-#home #socials {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  position: fixed;
-  left: 30px;
-  bottom: 0;
-}
-
-#home #socials ul li {
-  margin: 20px;
-  height: 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-#home #socials ul li a {
-  color: #94a3b8ab;
-  font-size: 1.5rem;
-  margin: 10px;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-}
-
-#home #socials ul li a:hover {
-  margin-top: -10px;
-  color: #48e9f1;
-}
-
-#home #socials .bar {
-  right: 25px;
-  width: 1px;
-  height: 100px;
-  background-color: #b1b3b685;
 }
 
 #about-section {
@@ -405,12 +359,6 @@ nav ul li a {
   margin-left: -25px;
   -webkit-transition: 0.4s;
   transition: 0.4s;
-}
-
-#about-section #about-wrapper .content-wrapper .image-wrapper img:hover {
-  cursor: pointer;
-  margin-top: 0px;
-  margin-left: 0px;
 }
 
 #work-experience-section {
@@ -864,30 +812,18 @@ nav ul li a {
 }
 
 #contact-section {
-  height: 70vh;
-  padding-top: 90px;
-  margin-top: 90px;
-  padding-bottom: 60px;
+  padding-top: 75px;
 }
 
 #contact-section #contact-wrapper {
-  width: 70%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  width: 80%;
   margin: auto;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
 #contact-section #contact-wrapper #contact-content {
   height: 55vh;
-  border: solid 1px white;
+  padding: 50px 0px;
+  background-color: #102340;
   text-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -961,6 +897,48 @@ nav ul li a {
   border-radius: 3px;
   margin-top: 0px;
   margin-left: 0px;
+}
+
+#contact-section #contact-wrapper #contact-content #socials {
+  width: 100%;
+}
+
+#contact-section #contact-wrapper #contact-content #socials ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: inherit;
+  list-style-type: none;
+}
+
+#contact-section #contact-wrapper #contact-content #socials ul li {
+  margin: 20px;
+  height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 30px;
+  height: 30px;
+}
+
+#contact-section #contact-wrapper #contact-content #socials ul li a {
+  display: block;
+  width: 30px;
+  height: 30px;
+  color: #94a3b8ab;
+  font-size: 1.5rem;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#contact-section #contact-wrapper #contact-content #socials ul li a:hover {
+  color: #48e9f1;
 }
 
 footer {
