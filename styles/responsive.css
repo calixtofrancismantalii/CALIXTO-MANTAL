@@ -18,19 +18,21 @@
   #navbar #my-logo {
     padding: 10px;
   }
-  #navbar ul {
+  #navbar #toggle-links {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
     position: fixed;
     left: 0;
-    top: 88px;
+    top: 80px;
     width: 100vw;
-    height: 0px;
+    height: 0vh;
     overflow: hidden;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
   }
-  #navbar ul li {
+  #navbar #toggle-links li {
     background-color: #102340;
     padding: 25px 25px;
   }

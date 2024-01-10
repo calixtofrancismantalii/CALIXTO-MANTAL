@@ -31,3 +31,16 @@ function closeModal() {
 function changeLargeImage(largeImageSrc) {
   largeImage.src = largeImageSrc;
 }
+
+//TOGGLE
+let toggleLinks = document.querySelector("#toggle-links");
+
+function toggle() {
+  // toggleLinks.style.height = "100vh";
+
+  if (toggleLinks.style.height == "100vh") {
+    toggleLinks.style.height = "0px";
+  } else {
+    toggleLinks.style.height = "100vh";
+  }
+}

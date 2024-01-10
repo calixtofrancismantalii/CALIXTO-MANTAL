@@ -17,14 +17,15 @@
     #my-logo {
       padding: 10px;
     }
-    ul {
+    #toggle-links {
       flex-direction: column;
       position: fixed;
       left: 0;
-      top: 88px;
+      top: 80px;
       width: 100vw;
-      height: 0px;
+      height: 0vh;
       overflow: hidden;
+      transition: 0.4s;
       li {
         background-color: #102340;
         padding: 25px 25px;
