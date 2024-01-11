@@ -243,6 +243,7 @@ nav ul li a {
 #home #hero-section .text-image-wrapper #hero-text #slogan {
   line-height: 2rem;
   font-size: 1.3rem;
+  width: 870px;
 }
 
 #home #hero-section .text-image-wrapper #hero-text .show-more-button {
