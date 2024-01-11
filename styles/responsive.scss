@@ -49,7 +49,7 @@
           }
           #name {
             color: #e2e8f0;
-            font-size: 6rem;
+            font-size: 5.9rem;
             line-height: 7rem;
           }
           #position {
@@ -146,39 +146,46 @@
   #work-experience-section {
     padding: 100px 0px;
     margin-bottom: 10px;
+    height: auto;
     #work-experience-wrapper {
       width: 90%;
-      height: auto;
+      // height: auto;
       margin: auto;
       .content-wrapper {
         display: flex;
+        flex-direction: column;
         margin: auto;
         #year-menu {
-          width: 20%;
+          width: 100%;
+          overflow: scroll;
+          margin-bottom: 20px;
           ul {
+            display: flex;
+            // flex-wrap: wrap;
             #year-menu-arrow-down {
               display: none;
             }
             .active {
-              border-left: solid 2px#48e9f1;
+              border-bottom: solid 2px#48e9f1 !important;
+              border-left: none;
               color: #48e9f1;
             }
             li {
               padding: 20px 12px;
               color: #94a3b8ab;
               font-size: 0.9rem;
-              border-left: solid 2px #b1b3b63c;
+              border: none;
               cursor: pointer;
             }
             li:hover:not(.active) {
-              border-left: solid 2px #48e9f1;
+              border-bottom: solid 2px #48e9f1;
               color: #48e9f1;
             }
           }
         }
         #year-description {
-          width: 80%;
-          height: 130vh !important;
+          width: 100%;
+          height: 99vh !important;
           position: relative;
           .work-experience-card-wrapper {
             background-color: #102340;
@@ -225,7 +232,7 @@
 
   //Skills
   #languages-and-skills-section {
-    padding: 100px 20px;
+    padding: 0px 20px;
     margin-bottom: 100px;
 
     #languages-wrapper {
@@ -600,3 +607,5 @@
     }
   }
 }
+
+//
