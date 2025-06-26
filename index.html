@@ -1,117 +1,93 @@
 <!DOCTYPE html>
 <html lang="en-US">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="My personal Website" />
-    <meta name="keywords" content="Calixto Francis Mantal II" />
-    <meta name="author" content="Calixto Francis Mantal II" />
-    <!--Add website image thumbnail-->
-    <meta property="og:title" content="Calixto Francis Mantal" />
-    <meta
-      property="og:image"
-      content="https://i.ibb.co/L5pdg0J/portfolio-website-thumbnail.jpg"
-    />
-    <meta
-      property="og:description"
-      content="Greetings! I am Calixto Francis Mantal, a dedicated and passionate professional in Graphic Design and Web Development. This online portfolio serves as a window into my world of creativity, innovation, and expertise."
-    />
-    <meta property="og:url" content="https://calixtomantal.netlify.app" />
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="627" />
-    <meta property="og:type" content="website" />
 
-    <title>Calixto Mantal</title>
-    <link rel="icon" href="./images/icon.png" />
-    <link rel="stylesheet" type="text/css" href="styles/main.css" />
-    <link rel="stylesheet" type="text/css" href="styles/responsive.css" />
-    <!-- CDN Bootstrap -->
-    <!-- <link
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="My personal Website" />
+  <meta name="keywords" content="Calixto Francis Mantal II" />
+  <meta name="author" content="Calixto Francis Mantal II" />
+  <!--Add website image thumbnail-->
+  <meta property="og:title" content="Calixto Francis Mantal" />
+  <meta property="og:image" content="https://i.ibb.co/L5pdg0J/portfolio-website-thumbnail.jpg" />
+  <meta property="og:description"
+    content="Greetings! I am Calixto Francis Mantal, a dedicated and passionate professional in Graphic Design and Web Development. This online portfolio serves as a window into my world of creativity, innovation, and expertise." />
+  <meta property="og:url" content="https://calixtomantal.netlify.app" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="627" />
+  <meta property="og:type" content="website" />
+
+  <title>Calixto Mantal</title>
+  <link rel="icon" href="./images/icon.png" />
+  <link rel="stylesheet" type="text/css" href="styles/main.css" />
+  <link rel="stylesheet" type="text/css" href="styles/responsive.css" />
+  <!-- CDN Bootstrap -->
+  <!-- <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
       crossorigin="anonymous"
     /> -->
-    <!-- Fontawesome -->
-    <script
-      src="https://kit.fontawesome.com/b99ca0b95c.js"
-      crossorigin="anonymous"
-    ></script>
-    <!-- Jquery CDN -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-    <!-- Google Fonts Poppins -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;600;700;800&display=swap"
-      rel="stylesheet"
-    />
-    <!-- AOS -->
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-  </head>
+  <!-- Fontawesome -->
+  <script src="https://kit.fontawesome.com/b99ca0b95c.js" crossorigin="anonymous"></script>
+  <!-- Jquery CDN -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <!-- Google Fonts Poppins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;600;700;800&display=swap"
+    rel="stylesheet" />
+  <!-- AOS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
 
-  <body>
-    <!--Navbar-->
-    <nav id="navbar">
-      <div id="mobile-menu">
-        <span onclick="toggle()">☰</span>
-      </div>
+<body>
+  <!--Navbar-->
+  <nav id="navbar">
+    <div id="mobile-menu">
+      <span onclick="toggle()">☰</span>
+    </div>
 
-      <div id="my-logo">
-        <a href="#home">
-          <img src="/images/icon.png" alt="calixto mantal avatar" />
-        </a>
-      </div>
+    <div id="my-logo">
+      <a href="#home">
+        <img src="/images/icon.png" alt="calixto mantal avatar" />
+      </a>
+    </div>
 
-      <ul id="toggle-links">
-        <li>
-          <a href="#about-section"
-            ><span class="number-menu">01.</span> About</a
-          >
-        </li>
-        <li>
-          <a href="#work-experience-section"
-            ><span class="number-menu">02.</span> Experience</a
-          >
-        </li>
-        <li>
-          <a href="#languages-and-skills-section"
-            ><span class="number-menu">03.</span> Skills</a
-          >
-        </li>
-        <li>
-          <a href="#projects-section"
-            ><span class="number-menu">04.</span> Projects</a
-          >
-        </li>
-        <li class="contact">
-          <a href="#contact-section"
-            ><span class="number-menu">05.</span> Contact</a
-          >
-        </li>
-      </ul>
-    </nav>
+    <ul id="toggle-links">
+      <li>
+        <a href="#about-section"><span class="number-menu">01.</span> About</a>
+      </li>
+      <li>
+        <a href="#work-experience-section"><span class="number-menu">02.</span> Experience</a>
+      </li>
+      <li>
+        <a href="#languages-and-skills-section"><span class="number-menu">03.</span> Skills</a>
+      </li>
+      <li>
+        <a href="#projects-section"><span class="number-menu">04.</span> Projects</a>
+      </li>
+      <li class="contact">
+        <a href="#contact-section"><span class="number-menu">05.</span> Contact</a>
+      </li>
+    </ul>
+  </nav>
 
-    <!-- Hero -->
-    <div id="home">
-      <div class="container" id="hero-section">
-        <div class="row text-image-wrapper">
-          <div id="hero-text">
-            <p id="greetings">Hello! I'm</p>
-            <h1 id="name">Calixto Francis Mantal,</h1>
-            <p id="position">Web Developer and Graphic Designer.</p>
-            <q id="slogan"
-              >Being a Graphic Designer and a Front-end Developer are the same
-              thing, like when you create a mockup of your dream and code to
-              make it real.</q
-            >
-            <!-- <div class="show-more-button">
+  <!-- Hero -->
+  <div id="home">
+    <div class="container" id="hero-section">
+      <div class="row text-image-wrapper">
+        <div id="hero-text">
+          <p id="greetings">Hello! I'm</p>
+          <h1 id="name">Calixto Francis Mantal,</h1>
+          <p id="position">Web Developer and Graphic Designer.</p>
+          <q id="slogan">Being a Graphic Designer and a Front-end Developer are the same
+            thing, like when you create a mockup of your dream and code to
+            make it real.</q>
+          <!-- <div class="show-more-button">
               <div class="btn-wrapper">
                 <a
                   href="https://drive.google.com/file/d/1NZxakiF_E9_mpru0G22WmiEIjembumh6/view?usp=drive_link"
@@ -121,1070 +97,902 @@
                 </a>
               </div>
             </div> -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- About -->
+  <section id="about-section">
+    <div class="container">
+      <div id="about-wrapper">
+        <div class="title-section">
+          <div class="title">
+            <h3>
+              <span class="number">01.</span>
+              <span>About</span> Me
+            </h3>
+          </div>
+          <div class="bar"></div>
+        </div>
+
+        <div class="content-wrapper">
+          <div class="text-wrapper">
+            <p>
+              Back then, I used to be a working student, I worked as a graphic
+              designer for years. I made numerous designs, such as logos,
+              posters, and social media posting.
+              <span>I worked with known personalities in politics, where my
+                designs were used for campaign and project
+                advertisements.</span>
+            </p>
+            <br />
+            <p>
+              With my years of experience in graphics, I put my talent into
+              web design, with being able to translate it into codes and make
+              it live.
+            </p>
+            <br />
+            <p>
+              When finished my college degree with the course of Information
+              technology, I shifted my career on web development and I landed
+              jobs as a front-end developer, where I made multiple websites
+              for B2B companies. Up to this point, I am planning becoming a
+              full-stack developer.
+            </p>
+            <br />
+            <p>
+              Fun fact about me, I love reading books and listening to rap
+              music. I also love sneakers where I find myself for being
+              different and lit.
+            </p>
+            <br />
+          </div>
+          <div class="image-wrapper" data-aos="fade-up">
+            <div id="image-container"></div>
+            <img src="/images/Calixto Francis Mantal II.jpeg" alt="profile photo" width="62%" />
           </div>
         </div>
       </div>
     </div>
+  </section>
 
-    <!-- About -->
-    <section id="about-section">
-      <div class="container">
-        <div id="about-wrapper">
-          <div class="title-section">
-            <div class="title">
-              <h3>
-                <span class="number">01.</span>
-                <span>About</span> Me
-              </h3>
-            </div>
-            <div class="bar"></div>
+  <!-- Experience -->
+  <section id="work-experience-section">
+    <div class="container">
+      <div id="work-experience-wrapper">
+        <div class="title-section">
+          <div class="title">
+            <h3><span class="number">02.</span> Year's of Experience</h3>
           </div>
-
-          <div class="content-wrapper">
-            <div class="text-wrapper">
-              <p>
-                Back then, I used to be a working student, I worked as a graphic
-                designer for years. I made numerous designs, such as logos,
-                posters, and social media posting.
-                <span
-                  >I worked with known personalities in politics, where my
-                  designs were used for campaign and project
-                  advertisements.</span
-                >
-              </p>
-              <br />
-              <p>
-                With my years of experience in graphics, I put my talent into
-                web design, with being able to translate it into codes and make
-                it live.
-              </p>
-              <br />
-              <p>
-                When finished my college degree with the course of Information
-                technology, I shifted my career on web development and I landed
-                jobs as a front-end developer, where I made multiple websites
-                for B2B companies. Up to this point, I am planning becoming a
-                full-stack developer.
-              </p>
-              <br />
-              <p>
-                Fun fact about me, I love reading books and listening to rap
-                music. I also love sneakers where I find myself for being
-                different and lit.
-              </p>
-              <br />
-            </div>
-            <div class="image-wrapper" data-aos="fade-up">
-              <div id="image-container"></div>
-              <img
-                src="/images/Calixto Francis Mantal II.jpeg"
-                alt="profile photo"
-                width="62%"
-              />
-            </div>
-          </div>
+          <div class="bar"></div>
         </div>
-      </div>
-    </section>
 
-    <!-- Experience -->
-    <section id="work-experience-section">
-      <div class="container">
-        <div id="work-experience-wrapper">
-          <div class="title-section">
-            <div class="title">
-              <h3><span class="number">02.</span> Year's of Experience</h3>
-            </div>
-            <div class="bar"></div>
+        <div class="content-wrapper">
+          <div id="year-menu">
+            <ul>
+              <li onclick="showExperinceDescription(0)" class="yearExperience">
+                <a>Present</a>
+                <span id="year-menu-arrow-down"><i class="fa-solid fa-angle-down"></i></span>
+              </li>
+              <li onclick="showExperinceDescription(1)" class="yearExperience">
+                <a>June 2022 - Feb 2023</a>
+              </li>
+              <li onclick="showExperinceDescription(2)" class="yearExperience">
+                <a>Jan 2022 - May 2022</a>
+              </li>
+              <li onclick="showExperinceDescription(3)" class="yearExperience">
+                <a>Oct 2020 - Dec 2021</a>
+              </li>
+              <li onclick="showExperinceDescription(4)" class="yearExperience">
+                <a>Jan 2015 - Oct 2020</a>
+              </li>
+              <li onclick="showExperinceDescription(5)" class="yearExperience">
+                <a>Nov 2014 - Mar 2020</a>
+              </li>
+              <li onclick="showExperinceDescription(6)" class="yearExperience">
+                <a>Feb 2013 - May 2013</a>
+              </li>
+              <li onclick="showExperinceDescription(7)" class="yearExperience">
+                <a>Aug 2012 - Jan 2013</a>
+              </li>
+              <li onclick="showExperinceDescription(8)" class="yearExperience">
+                <a>Jun 2011 - Dec 2011</a>
+              </li>
+            </ul>
           </div>
 
-          <div class="content-wrapper">
-            <div id="year-menu">
-              <ul>
-                <li
-                  onclick="showExperinceDescription(0)"
-                  class="yearExperience"
-                >
-                  <a>Present</a>
-                  <span id="year-menu-arrow-down"
-                    ><i class="fa-solid fa-angle-down"></i
-                  ></span>
+          <div id="year-description">
+            <div class="work-experience-card-wrapper">
+              <p class="position-and-company">
+                Web Consultant
+                <span class="dash">@<a href="https://www.facebook.com/sellergatewayinc" target="_blank"
+                    class="company">Seller Gateway Inc.
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i></a></span>
+              </p>
+              <ul class="work-description">
+                <li>
+                  Provides strategic advice on using technology for web
+                  development.
                 </li>
-                <li
-                  onclick="showExperinceDescription(1)"
-                  class="yearExperience"
-                >
-                  <a>June 2022 - Feb 2023</a>
+                <li>
+                  Help determine their needs and incorporate technology into
+                  their business.
                 </li>
-                <li
-                  onclick="showExperinceDescription(2)"
-                  class="yearExperience"
-                >
-                  <a>Jan 2022 - May 2022</a>
+                <li>
+                  Designing user-friendly and visually appealing interfaces in
+                  Shopify.
                 </li>
-                <li
-                  onclick="showExperinceDescription(3)"
-                  class="yearExperience"
-                >
-                  <a>Oct 2020 - Dec 2021</a>
+                <li>Integrating data, images, videos, and plugins.</li>
+                <li>
+                  Troubleshooting, testing, and demonstrating website
+                  prototypes.
                 </li>
-                <li
-                  onclick="showExperinceDescription(4)"
-                  class="yearExperience"
-                >
-                  <a>Jan 2015 - Oct 2020</a>
-                </li>
-                <li
-                  onclick="showExperinceDescription(5)"
-                  class="yearExperience"
-                >
-                  <a>Nov 2014 - Mar 2020</a>
-                </li>
-                <li
-                  onclick="showExperinceDescription(6)"
-                  class="yearExperience"
-                >
-                  <a>Feb 2013 - May 2013</a>
-                </li>
-                <li
-                  onclick="showExperinceDescription(7)"
-                  class="yearExperience"
-                >
-                  <a>Aug 2012 - Jan 2013</a>
-                </li>
-                <li
-                  onclick="showExperinceDescription(8)"
-                  class="yearExperience"
-                >
-                  <a>Jun 2011 - Dec 2011</a>
+                <li>
+                  Completing the website development project on time and
+                  within budget.
                 </li>
               </ul>
             </div>
 
-            <div id="year-description">
-              <div class="work-experience-card-wrapper">
-                <p class="position-and-company">
-                  Web Consultant
-                  <span class="dash"
-                    >@<a
-                      href="https://www.facebook.com/sellergatewayinc"
-                      target="_blank"
-                      class="company"
-                      >Seller Gateway Inc.
-                      <i class="fa-solid fa-arrow-up-right-from-square"></i></a
-                  ></span>
-                </p>
-                <ul class="work-description">
-                  <li>
-                    Provides strategic advice on using technology for web
-                    development.
-                  </li>
-                  <li>
-                    Help determine their needs and incorporate technology into
-                    their business.
-                  </li>
-                  <li>
-                    Designing user-friendly and visually appealing interfaces in
-                    Shopify.
-                  </li>
-                  <li>Integrating data, images, videos, and plugins.</li>
-                  <li>
-                    Troubleshooting, testing, and demonstrating website
-                    prototypes.
-                  </li>
-                  <li>
-                    Completing the website development project on time and
-                    within budget.
-                  </li>
-                </ul>
-              </div>
+            <div class="work-experience-card-wrapper">
+              <p class="position-and-company">
+                Frontend Web Developer
+                <span class="dash">@<a href="https://weareeverise.com/" target="_blank" class="company">Everise
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i></a></span>
+              </p>
+              <ul class="work-description">
+                <li>
+                  Analyzing and implementing custom functions for the website.
+                </li>
 
-              <div class="work-experience-card-wrapper">
-                <p class="position-and-company">
-                  Frontend Web Developer
-                  <span class="dash"
-                    >@<a
-                      href="https://weareeverise.com/"
-                      target="_blank"
-                      class="company"
-                      >Everise
-                      <i class="fa-solid fa-arrow-up-right-from-square"></i></a
-                  ></span>
-                </p>
-                <ul class="work-description">
-                  <li>
-                    Analyzing and implementing custom functions for the website.
-                  </li>
+                <li>
+                  Maintaining and updating website content in timely manner.
+                </li>
+                <li>Integrating data, images, and videos.</li>
+                <li>
+                  Building new website templates from scratch using HTML5,
+                  CSS3, Bootstrap and JavaScript.
+                </li>
+                <li>
+                  Creating reusable components for new and existing websites
+                  using HubSpot Design Manager.
+                </li>
+                <li>
+                  Collaborating team members for consolidating graphics and
+                  copies for updating or creating new websites.
+                </li>
+                <li>
+                  Communicating foreign stakeholders for social media daily
+                  posting plan.
+                </li>
+                <li>
+                  Designing banners and graphics for social media such as
+                  Facebook, Twitter, Instagram, and LinkedIn.
+                </li>
+              </ul>
+            </div>
 
-                  <li>
-                    Maintaining and updating website content in timely manner.
-                  </li>
-                  <li>Integrating data, images, and videos.</li>
-                  <li>
-                    Building new website templates from scratch using HTML5,
-                    CSS3, Bootstrap and JavaScript.
-                  </li>
-                  <li>
-                    Creating reusable components for new and existing websites
-                    using HubSpot Design Manager.
-                  </li>
-                  <li>
-                    Collaborating team members for consolidating graphics and
-                    copies for updating or creating new websites.
-                  </li>
-                  <li>
-                    Communicating foreign stakeholders for social media daily
-                    posting plan.
-                  </li>
-                  <li>
-                    Designing banners and graphics for social media such as
-                    Facebook, Twitter, Instagram, and LinkedIn.
-                  </li>
-                </ul>
-              </div>
+            <div class="work-experience-card-wrapper">
+              <p class="position-and-company">
+                Web Developer
+                <span class="dash">@<a href="https://www.rannscorp.com/" target="_blank" class="company">Rann-s
+                    Manufacturing Corporation
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i></a></span>
+              </p>
+              <ul class="work-description">
+                <li>Implementing roadmaps for web development.</li>
 
-              <div class="work-experience-card-wrapper">
-                <p class="position-and-company">
-                  Web Developer
-                  <span class="dash"
-                    >@<a
-                      href="https://www.rannscorp.com/"
-                      target="_blank"
-                      class="company"
-                      >Rann-s Manufacturing Corporation
-                      <i class="fa-solid fa-arrow-up-right-from-square"></i></a
-                  ></span>
-                </p>
-                <ul class="work-description">
-                  <li>Implementing roadmaps for web development.</li>
+                <li>
+                  Proposing domain names for the websites within the budget.
+                </li>
+                <li>
+                  Website and software application designing, building, and
+                  maintaining.
+                </li>
+                <li>
+                  Building an e-commerce website using HTML5, CSS3, SaSS,
+                  JavaScript, JQuery, PHP and MySQL.
+                </li>
+                <li>
+                  Developed a Purchase Order System for monitoring daily
+                  transactions and supply.
+                </li>
+                <li>
+                  Filming, and editing videos for product advertisements.
+                </li>
+              </ul>
+            </div>
 
-                  <li>
-                    Proposing domain names for the websites within the budget.
-                  </li>
-                  <li>
-                    Website and software application designing, building, and
-                    maintaining.
-                  </li>
-                  <li>
-                    Building an e-commerce website using HTML5, CSS3, SaSS,
-                    JavaScript, JQuery, PHP and MySQL.
-                  </li>
-                  <li>
-                    Developed a Purchase Order System for monitoring daily
-                    transactions and supply.
-                  </li>
-                  <li>
-                    Filming, and editing videos for product advertisements.
-                  </li>
-                </ul>
-              </div>
+            <div class="work-experience-card-wrapper">
+              <p class="position-and-company">
+                Web Developer
+                <span class="dash">@<a href="https://www.facebook.com/sellergatewayinc" target="_blank"
+                    class="company">Seller Gateway Inc.
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i></a></span>
+              </p>
+              <ul class="work-description">
+                <li>
+                  Developed e-commerce website using WordPress and
+                  Woo-commerce plugins.
+                </li>
 
-              <div class="work-experience-card-wrapper">
-                <p class="position-and-company">
-                  Web Developer
-                  <span class="dash"
-                    >@<a
-                      href="https://www.facebook.com/sellergatewayinc"
-                      target="_blank"
-                      class="company"
-                      >Seller Gateway Inc.
-                      <i class="fa-solid fa-arrow-up-right-from-square"></i></a
-                  ></span>
-                </p>
-                <ul class="work-description">
-                  <li>
-                    Developed e-commerce website using WordPress and
-                    Woo-commerce plugins.
-                  </li>
+                <li>
+                  Translating web design mockup in WordPress using Elementor.
+                </li>
+                <li>Ensuring website responsiveness across all devices.</li>
+                <li>Manage website traffic using Google Analytics.</li>
+                <li>
+                  Injecting Facebook Pixel to analyze customer activity and
+                  interest.
+                </li>
+                <li>
+                  Back up files and websites from cPanel to local directories
+                  for recovery.
+                </li>
+                <li>
+                  Upgrade e-commerce using HTML5, CSS3, JavaScript, jQuery,
+                  PHP, MySQL and Laravel to meet the full requirements of the
+                  e-commerce store.
+                </li>
+                <li>
+                  Translating UX-designed wireframes to production-level using
+                  HTML5, CSS3, Sass, Bootstrap, JavaScript and jQuery.
+                </li>
+                <li>
+                  Initialized project using git and XAMMP for local
+                  development.
+                </li>
+                <li>Setup remote repository in GitHub.</li>
+                <li>Setup Linux environment server in Digital Ocean.</li>
+                <li>Setup staging site using sub-domain.</li>
+                <li>Deploying e-commerce website to production site.</li>
+                <li>
+                  Maintaining and updating e-commerce assets product data,
+                  product images, and videos.
+                </li>
+              </ul>
+            </div>
 
-                  <li>
-                    Translating web design mockup in WordPress using Elementor.
-                  </li>
-                  <li>Ensuring website responsiveness across all devices.</li>
-                  <li>Manage website traffic using Google Analytics.</li>
-                  <li>
-                    Injecting Facebook Pixel to analyze customer activity and
-                    interest.
-                  </li>
-                  <li>
-                    Back up files and websites from cPanel to local directories
-                    for recovery.
-                  </li>
-                  <li>
-                    Upgrade e-commerce using HTML5, CSS3, JavaScript, jQuery,
-                    PHP, MySQL and Laravel to meet the full requirements of the
-                    e-commerce store.
-                  </li>
-                  <li>
-                    Translating UX-designed wireframes to production-level using
-                    HTML5, CSS3, Sass, Bootstrap, JavaScript and jQuery.
-                  </li>
-                  <li>
-                    Initialized project using git and XAMMP for local
-                    development.
-                  </li>
-                  <li>Setup remote repository in GitHub.</li>
-                  <li>Setup Linux environment server in Digital Ocean.</li>
-                  <li>Setup staging site using sub-domain.</li>
-                  <li>Deploying e-commerce website to production site.</li>
-                  <li>
-                    Maintaining and updating e-commerce assets product data,
-                    product images, and videos.
-                  </li>
-                </ul>
-              </div>
+            <div class="work-experience-card-wrapper">
+              <p class="position-and-company">
+                Freelance Front-end Developer and Graphic Designer
+              </p>
+              <ul class="work-description">
+                <li>
+                  Creating website according to client request using HTML5,
+                  CSS3, and JavaScript.
+                </li>
 
-              <div class="work-experience-card-wrapper">
-                <p class="position-and-company">
-                  Freelance Front-end Developer and Graphic Designer
-                </p>
-                <ul class="work-description">
-                  <li>
-                    Creating website according to client request using HTML5,
-                    CSS3, and JavaScript.
-                  </li>
+                <li>
+                  Providing high quality image, banner, graphics and logos.
+                </li>
+                <li>Communicating website development in timely manner.</li>
+                <li>Maintaining and updating clients website.</li>
+              </ul>
+            </div>
 
-                  <li>
-                    Providing high quality image, banner, graphics and logos.
-                  </li>
-                  <li>Communicating website development in timely manner.</li>
-                  <li>Maintaining and updating clients website.</li>
-                </ul>
-              </div>
+            <div class="work-experience-card-wrapper">
+              <p class="position-and-company">
+                Graphic Designer
+                <span class="dash">@<a href="https://www.facebook.com/KabataangMaynila" target="_blank"
+                    class="company">Youth Development and Welfare Bureau
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i></a></span>
+              </p>
+              <ul class="work-description">
+                <li>
+                  Worked in combined positions as Graphic Designer and Social
+                  Media Officer.
+                </li>
+                <li>
+                  Creating graphics for project advertisement such as
+                  tarpaulin, poster, T-shirt, IDs and Logos.
+                </li>
+                <li>Creating graphics for social media posting.</li>
+                <li>Reporting monthly insight of social media accounts.</li>
+              </ul>
+            </div>
 
-              <div class="work-experience-card-wrapper">
-                <p class="position-and-company">
-                  Graphic Designer
-                  <span class="dash"
-                    >@<a
-                      href="https://www.facebook.com/KabataangMaynila"
-                      target="_blank"
-                      class="company"
-                      >Youth Development and Welfare Bureau
-                      <i class="fa-solid fa-arrow-up-right-from-square"></i></a
-                  ></span>
-                </p>
-                <ul class="work-description">
-                  <li>
-                    Worked in combined positions as Graphic Designer and Social
-                    Media Officer.
-                  </li>
-                  <li>
-                    Creating graphics for project advertisement such as
-                    tarpaulin, poster, T-shirt, IDs and Logos.
-                  </li>
-                  <li>Creating graphics for social media posting.</li>
-                  <li>Reporting monthly insight of social media accounts.</li>
-                </ul>
-              </div>
+            <div class="work-experience-card-wrapper">
+              <p class="position-and-company">
+                Information Technology Administrator
+                <span class="dash">@<a href="https://www.facebook.com/groups/181922261837566" target="_blank"
+                    class="company">Kaakbay Party List
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i></a></span>
+              </p>
+              <ul class="work-description">
+                <li>
+                  Maintain internet networks, local servers and security
+                  programs and computer system infrastructure.
+                </li>
+              </ul>
+            </div>
 
-              <div class="work-experience-card-wrapper">
-                <p class="position-and-company">
-                  Information Technology Administrator
-                  <span class="dash"
-                    >@<a
-                      href="https://www.facebook.com/groups/181922261837566"
-                      target="_blank"
-                      class="company"
-                      >Kaakbay Party List
-                      <i class="fa-solid fa-arrow-up-right-from-square"></i></a
-                  ></span>
-                </p>
-                <ul class="work-description">
-                  <li>
-                    Maintain internet networks, local servers and security
-                    programs and computer system infrastructure.
-                  </li>
-                </ul>
-              </div>
+            <div class="work-experience-card-wrapper">
+              <p class="position-and-company">
+                Database Administrator
+                <span class="dash">@<a href="javascript:void(0)" class="company">President Joseph Ejercito Estrada Head
+                    Quarter
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i></a></span>
+              </p>
+              <ul class="work-description">
+                <li>
+                  Manage a confidential database, verifying, securing and
+                  keeping up to date.
+                </li>
+              </ul>
+            </div>
 
-              <div class="work-experience-card-wrapper">
-                <p class="position-and-company">
-                  Database Administrator
-                  <span class="dash"
-                    >@<a href="javascript:void(0)" class="company"
-                      >President Joseph Ejercito Estrada Head Quarter
-                      <i class="fa-solid fa-arrow-up-right-from-square"></i></a
-                  ></span>
-                </p>
-                <ul class="work-description">
-                  <li>
-                    Manage a confidential database, verifying, securing and
-                    keeping up to date.
-                  </li>
-                </ul>
-              </div>
-
-              <div class="work-experience-card-wrapper">
-                <p class="position-and-company">
-                  Office Staff
-                  <span class="dash"
-                    >@<a
-                      href="https://firstresources.psetradex.ph/"
-                      target="_blank"
-                      class="company"
-                      >The First Resources Management & Securities Corp.
-                      <i class="fa-solid fa-arrow-up-right-from-square"></i></a
-                  ></span>
-                </p>
-                <ul class="work-description">
-                  <li>
-                    Filing vouchers, sending letters to other companies, deposit
-                    and encashment of cheques in different banks.
-                  </li>
-                </ul>
-              </div>
+            <div class="work-experience-card-wrapper">
+              <p class="position-and-company">
+                Office Staff
+                <span class="dash">@<a href="https://firstresources.psetradex.ph/" target="_blank" class="company">The
+                    First Resources Management & Securities Corp.
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i></a></span>
+              </p>
+              <ul class="work-description">
+                <li>
+                  Filing vouchers, sending letters to other companies, deposit
+                  and encashment of cheques in different banks.
+                </li>
+              </ul>
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Skills -->
-    <section id="languages-and-skills-section">
-      <div class="container">
-        <div id="languages-wrapper">
-          <div class="title-section">
-            <div class="title">
-              <h3>
-                <span class="number">03.</span>
-                <span>My Web Languages</span> and Tools
-              </h3>
-            </div>
-            <div class="bar"></div>
+  <!-- Skills -->
+  <section id="languages-and-skills-section">
+    <div class="container">
+      <div id="languages-wrapper">
+        <div class="title-section">
+          <div class="title">
+            <h3>
+              <span class="number">03.</span>
+              <span>My Web Languages</span> and Tools
+            </h3>
           </div>
+          <div class="bar"></div>
         </div>
+      </div>
 
-        <div class="row row-app-icon">
-          <div class="col-app-icons">
-            <div class="apps-title">Frontend</div>
-            <div class="icon-wrapper">
-              <div class="icon-frame">
-                <img src="/images/html5.png" alt="html5 logo" />
-              </div>
-              <div class="icon-frame">
-                <img src="/images/css5.png" alt="html5 logo" />
-              </div>
-              <div class="icon-frame">
-                <img src="/images/javascript.png" alt="html5 logo" />
-              </div>
+      <div class="row row-app-icon">
+        <div class="col-app-icons">
+          <div class="apps-title">Frontend</div>
+          <div class="icon-wrapper">
+            <div class="icon-frame">
+              <img src="/images/html5.png" alt="html5 logo" />
             </div>
-          </div>
-
-          <div class="col-app-icons">
-            <div class="apps-title">Version control</div>
-            <div class="icon-wrapper">
-              <div class="icon-frame">
-                <img src="/images/git.png" alt="html5 logo" />
-              </div>
-              <div class="icon-frame">
-                <img src="/images/github.png" alt="html5 logo" />
-              </div>
+            <div class="icon-frame">
+              <img src="/images/css5.png" alt="html5 logo" />
             </div>
-          </div>
-
-          <div class="col-app-icons">
-            <div class="apps-title">WordPress</div>
-            <div class="icon-wrapper">
-              <div class="icon-frame">
-                <img src="/images/wordpress.png" alt="html5 logo" />
-              </div>
-              <div class="icon-frame">
-                <img src="/images/elementor.png" alt="html5 logo" />
-              </div>
-              <div class="icon-frame">
-                <img src="/images/woocommerce.png" alt="html5 logo" />
-              </div>
-              <div class="icon-frame">
-                <img src="/images/wpform.png" alt="html5 logo" />
-              </div>
-              <div class="icon-frame">
-                <img src="/images/yoast.png" alt="html5 logo" />
-              </div>
+            <div class="icon-frame">
+              <img src="/images/javascript.png" alt="html5 logo" />
             </div>
           </div>
         </div>
 
-        <div class="row row-app-icon">
-          <div class="col-app-icons">
-            <div class="apps-title">Server Side</div>
-            <div class="icon-wrapper">
-              <div class="icon-frame">
-                <img src="/images/xampp.png" alt="html5 logo" />
-              </div>
-              <div class="icon-frame">
-                <img src="/images/php.png" alt="html5 logo" />
-              </div>
-              <div class="icon-frame">
-                <img src="/images/mysql.png" alt="html5 logo" />
-              </div>
-              <div class="icon-frame">
-                <img src="/images/filezilla.png" alt="html5 logo" />
-              </div>
-            </div>
-          </div>
-
-          <div class="col-app-icons">
-            <div class="apps-title">Server and Analytics</div>
-            <div class="icon-wrapper">
-              <div class="icon-frame">
-                <img src="/images/facebook-pixel.png" alt="html5 logo" />
-              </div>
-              <div class="icon-frame">
-                <img src="/images/digital-ocean.png" alt="html5 logo" />
-              </div>
-              <div class="icon-frame">
-                <img src="/images/namecheap.png" alt="html5 logo" />
-              </div>
-              <div class="icon-frame">
-                <img src="/images/google-analytics.png" alt="html5 logo" />
-              </div>
-            </div>
-          </div>
-
-          <div class="col-app-icons">
-            <div class="apps-title">Frameworks</div>
-            <div class="icon-wrapper">
-              <div class="icon-frame">
-                <img src="/images/sass.png" alt="html5 logo" />
-              </div>
-              <div class="icon-frame">
-                <img src="/images/jquery.png" alt="html5 logo" />
-              </div>
-              <div class="icon-frame">
-                <img src="/images/bootstrap.png" alt="html5 logo" />
-              </div>
+        <div class="col-app-icons">
+          <div class="apps-title">Backend</div>
+          <div class="icon-wrapper">
+            <div class="icon-frame">
+              <img src="/images/laravel-logo-2.png" alt="html5 logo" />
             </div>
           </div>
         </div>
 
-        <div class="row row-app-icon">
-          <div class="col-app-icons">
-            <div class="apps-title">Adobe Apps</div>
-            <div class="icon-wrapper">
-              <div class="icon-frame">
-                <img src="/images/photoshop.png" alt="html5 logo" />
-              </div>
-              <div class="icon-frame">
-                <img src="/images/premier.png" alt="html5 logo" />
-              </div>
-              <div class="icon-frame">
-                <img src="/images/lightroom.png" alt="html5 logo" />
-              </div>
+        <div class="col-app-icons">
+          <div class="apps-title">Version control</div>
+          <div class="icon-wrapper">
+            <div class="icon-frame">
+              <img src="/images/git.png" alt="html5 logo" />
+            </div>
+            <div class="icon-frame">
+              <img src="/images/github.png" alt="html5 logo" />
             </div>
           </div>
+        </div>
 
-          <div class="col-app-icons">
-            <div class="apps-title">HubSpot</div>
-            <div class="icon-wrapper">
-              <div class="icon-frame">
-                <img src="/images/hubspot.png" alt="html5 logo" />
-              </div>
+        <div class="col-app-icons">
+          <div class="apps-title">WordPress</div>
+          <div class="icon-wrapper">
+            <div class="icon-frame">
+              <img src="/images/wordpress.png" alt="html5 logo" />
             </div>
-          </div>
-
-          <div class="col-app-icons">
-            <div class="apps-title">Shopify</div>
-            <div class="icon-wrapper">
-              <div class="icon-frame">
-                <img src="/images/shopify.png" alt="html5 logo" />
-              </div>
-              <div class="icon-frame">
-                <img src="/images/bold-app.png" alt="html5 logo" />
-              </div>
+            <div class="icon-frame">
+              <img src="/images/elementor.png" alt="html5 logo" />
             </div>
-          </div>
-
-          <div class="col-app-icons">
-            <div class="apps-title">Recent</div>
-            <div class="icon-wrapper">
-              <div class="icon-frame">
-                <img src="/images/tailwind.png" alt="html5 logo" />
-              </div>
-              <div class="icon-frame">
-                <img src="/images/react.png" alt="html5 logo" />
-              </div>
+            <div class="icon-frame">
+              <img src="/images/woocommerce.png" alt="html5 logo" />
+            </div>
+            <div class="icon-frame">
+              <img src="/images/wpform.png" alt="html5 logo" />
+            </div>
+            <div class="icon-frame">
+              <img src="/images/yoast.png" alt="html5 logo" />
             </div>
           </div>
         </div>
       </div>
-    </section>
 
-    <!-- Projects -->
-    <section id="projects-section">
-      <div id="graphics-modal">
-        <span id="closeBtn" onclick="closeModal()"
-          ><i class="fa fa-times" aria-hidden="true"></i
-        ></span>
+      <div class="row row-app-icon">
+        <div class="col-app-icons">
+          <div class="apps-title">Server Side</div>
+          <div class="icon-wrapper">
+            <div class="icon-frame">
+              <img src="/images/xampp.png" alt="html5 logo" />
+            </div>
+            <div class="icon-frame">
+              <img src="/images/php.png" alt="html5 logo" />
+            </div>
+            <div class="icon-frame">
+              <img src="/images/mysql.png" alt="html5 logo" />
+            </div>
+            <div class="icon-frame">
+              <img src="/images/filezilla.png" alt="html5 logo" />
+            </div>
+          </div>
+        </div>
 
-        <div id="modal-content-wrapper">
-          <div id="modal-content">
-            <span id="prev" class="switchBtn">Previous</span>
-            <div id="largeImageWrapper">
-              <img id="largeImage" src="/images/css3-logo.png" />
-              <div id="graphic-description-wrapper">
-                <h5>Featured Graphics</h5>
-                <h1 id="featuredProjectTitleModal">Team Legacy Logo</h1>
-                <p id="graphic-description">Descriptions</p>
-                <!-- <button>Learn more about this graphic</button> -->
-                <!-- <div class="show-more-button">
+        <div class="col-app-icons">
+          <div class="apps-title">Server and Analytics</div>
+          <div class="icon-wrapper">
+            <div class="icon-frame">
+              <img src="/images/facebook-pixel.png" alt="html5 logo" />
+            </div>
+            <div class="icon-frame">
+              <img src="/images/digital-ocean.png" alt="html5 logo" />
+            </div>
+            <div class="icon-frame">
+              <img src="/images/namecheap.png" alt="html5 logo" />
+            </div>
+            <div class="icon-frame">
+              <img src="/images/google-analytics.png" alt="html5 logo" />
+            </div>
+          </div>
+        </div>
+
+        <div class="col-app-icons">
+          <div class="apps-title">Frameworks</div>
+          <div class="icon-wrapper">
+            <div class="icon-frame">
+              <img src="/images/sass.png" alt="html5 logo" />
+            </div>
+            <div class="icon-frame">
+              <img src="/images/jquery.png" alt="html5 logo" />
+            </div>
+            <div class="icon-frame">
+              <img src="/images/bootstrap.png" alt="html5 logo" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row row-app-icon">
+        <div class="col-app-icons">
+          <div class="apps-title">Adobe Apps</div>
+          <div class="icon-wrapper">
+            <div class="icon-frame">
+              <img src="/images/photoshop.png" alt="html5 logo" />
+            </div>
+            <div class="icon-frame">
+              <img src="/images/premier.png" alt="html5 logo" />
+            </div>
+            <div class="icon-frame">
+              <img src="/images/lightroom.png" alt="html5 logo" />
+            </div>
+          </div>
+        </div>
+
+        <div class="col-app-icons">
+          <div class="apps-title">HubSpot</div>
+          <div class="icon-wrapper">
+            <div class="icon-frame">
+              <img src="/images/hubspot.png" alt="html5 logo" />
+            </div>
+          </div>
+        </div>
+
+        <div class="col-app-icons">
+          <div class="apps-title">Shopify</div>
+          <div class="icon-wrapper">
+            <div class="icon-frame">
+              <img src="/images/shopify.png" alt="html5 logo" />
+            </div>
+            <div class="icon-frame">
+              <img src="/images/bold-app.png" alt="html5 logo" />
+            </div>
+          </div>
+        </div>
+
+        <div class="col-app-icons">
+          <div class="apps-title">Recent</div>
+          <div class="icon-wrapper">
+            <div class="icon-frame">
+              <img src="/images/tailwind.png" alt="html5 logo" />
+            </div>
+            <div class="icon-frame">
+              <img src="/images/react.png" alt="html5 logo" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects-section">
+    <div id="graphics-modal">
+      <span id="closeBtn" onclick="closeModal()"><i class="fa fa-times" aria-hidden="true"></i></span>
+
+      <div id="modal-content-wrapper">
+        <div id="modal-content">
+          <span id="prev" class="switchBtn">Previous</span>
+          <div id="largeImageWrapper">
+            <img id="largeImage" src="/images/css3-logo.png" />
+            <div id="graphic-description-wrapper">
+              <h5>Featured Graphics</h5>
+              <h1 id="featuredProjectTitleModal">Team Legacy Logo</h1>
+              <p id="graphic-description">Descriptions</p>
+              <!-- <button>Learn more about this graphic</button> -->
+              <!-- <div class="show-more-button">
                   <div class="btn-wrapper">
                     <button id="learnMoreBtn">
                       Learn more about this graphic
                     </button>
                   </div>
                 </div> -->
-              </div>
             </div>
-            <span id="next" class="switchBtn">Next</span>
+          </div>
+          <span id="next" class="switchBtn">Next</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="title-section">
+        <div class="title">
+          <h3>
+            <span class="number">04.</span><span> Featured projects</span>
+          </h3>
+        </div>
+        <div class="bar"></div>
+      </div>
+
+      <ul id="projects-menu-wrapper">
+        <li onclick="slideWeb()" class="projectMenu">
+          <a>Web Development</a>
+        </li>
+        <li onclick="slideGraphic()" class="projectMenu">
+          <a>Graphics</a>
+        </li>
+      </ul>
+
+      <div class="row webAndGraphicsBoxWrapper">
+        <div class="websiteMainContainer">
+          <!--PERSONAL TRAINOR-->
+          <div class="websiteBox">
+            <img src="/images/personal-trainor-website.png" width="260rem" />
+            <div class="websiteInformation">
+              <span class="websiteName"><a href="https://personal-trainor.netlify.app" target="_blank"
+                  class="websiteLink">Personal Trainor
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i></a></span>
+              <p>
+                Discover the art of bodyweight training through expert
+                guidance, workout routines, and nutrition tips.
+              </p>
+            </div>
+          </div>
+          <!--HUEPRINT CUSTOMIZE T-SHIRT-->
+          <div class="websiteBox">
+            <img src="/images/custom-shirt-ecommerce-website.png" width="260rem" />
+            <div class="websiteInformation">
+              <span class="websiteName"><a href="https://customized-printed-tees.netlify.app" target="_blank"
+                  class="websiteLink">Hueprint E-commerce
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i></a></span>
+              <p>
+                Express Yourself with Our Custom T-Shirt! Dive into a endless
+                possibilities as you design your own T-shirt.
+              </p>
+            </div>
+          </div>
+          <!--MAKEUP ARTIST-->
+          <div class="websiteBox">
+            <img src="/images/makeup-artist-website.png" width="260rem" />
+            <div class="websiteInformation">
+              <span class="websiteName"><a href="https://angelies-beauty-studio.netlify.app" target="_blank"
+                  class="websiteLink">Angelie's Beauty Studio
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i></a></span>
+              <p>
+                Indulge in Elegance at Our Beauty Studio. Step into a
+                sanctuary of glamour where artistry meets relaxation.
+              </p>
+            </div>
+          </div>
+          <!--ARTIST-->
+          <div class="websiteBox">
+            <img src="/images/artist-website.png" width="260rem" />
+            <div class="websiteInformation">
+              <span class="websiteName"><a href="https://leonard-artist.netlify.app" target="_blank"
+                  class="websiteLink">Leonard Artist
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i></a></span>
+              <p>
+                Explore an online portfolio that showcases a vibrant and
+                mesmerizing paintings to evocative sculptures.
+              </p>
+            </div>
+          </div>
+          <!--APPLE-->
+          <div class="websiteBox">
+            <img src="/images/apple-website-for-educational-purpose-only.png" width="260rem" />
+            <div class="websiteInformation">
+              <span class="websiteName"><a href="https://apple-study-website.netlify.app" target="_blank"
+                  class="websiteLink">Apple
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i></a></span>
+              <p>
+                Apple website - This is more than apple website; it's a
+                gateway to knowledge (for study purposes only).
+              </p>
+            </div>
+          </div>
+          <!--CAKE SHOP-->
+          <div class="websiteBox">
+            <img src="/images/cake-shop-website.png" width="260rem" />
+            <div class="websiteInformation">
+              <span class="websiteName"><a href="https://cakes-pies-and-tarts-shop.netlify.app" target="_blank"
+                  class="websiteLink">Cake Shop
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i></a></span>
+              <p>
+                From elegant wedding cakes to birthday creations, our
+                confections are a celebration of taste and aesthetics.
+              </p>
+            </div>
+          </div>
+          <!--CASE STUDY-->
+          <div class="websiteBox">
+            <img src="/images/case-study.png" width="260rem" />
+            <div class="websiteInformation">
+              <span class="websiteName"><a href="https://everise-case-study.netlify.app" target="_blank"
+                  class="websiteLink">Case Study
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i></a></span>
+              <p>
+                Learn from the best, apply with confidence, and let success
+                stories guide your path.
+              </p>
+            </div>
+          </div>
+          <!--CAR ACCESSORIES-->
+          <div class="websiteBox">
+            <img src="/images/rann-s-car-accessories.png" width="260rem" />
+            <div class="websiteInformation">
+              <span class="websiteName"><a href="https://rann-s-car-accessories.netlify.app" target="_blank"
+                  class="websiteLink">Rann-S Car Accesories
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i></a></span>
+              <p>
+                Discover the perfect additions for your automotive passion at
+                our Car Accessories Website.
+              </p>
+            </div>
+          </div>
+          <!--REGISTRATION FOR FUN RUN-->
+          <div class="websiteBox">
+            <img src="/images/run-for-earth.png" width="260rem" />
+            <div class="websiteInformation">
+              <span class="websiteName"><a href="https://run-for-earth.netlify.app" target="_blank"
+                  class="websiteLink">Run For Earth Registration Portal
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i></a></span>
+              <p>
+                Our user-friendly website offers a hassle-free way to register
+                and manage information.
+              </p>
+            </div>
+          </div>
+          <!--FAME MARKET DAYS-->
+          <div class="websiteBox">
+            <img src="/images/fame-market-days.png" width="260rem" />
+            <div class="websiteInformation">
+              <span class="websiteName"><a href="https://fame-market-days.netlify.app" target="_blank"
+                  class="websiteLink">Fame+ Market Days
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i></a></span>
+              <p>
+                Unleash the power of visual appeal and professionalism in your
+                emails with our curated templates.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="graphicsMainContainer">
+          <!--PAROKYA NI EDGAR POSTER-->
+          <div class="graphicBox">
+            <img src="/images/araw-ng-maynila-poster-2015.png" width="160rem" />
+            <div class="graphicInformation">
+              <span class="graphicName"><a href="javascript:void(0)"
+                  onclick="openModal('/images/araw-ng-maynila-poster-2015.png', '444th Manila Day', 0)"
+                  class="graphicLink">444th Manila Day <i class="fa-solid fa-expand"></i></a></span>
+              <p>
+                Poster for 444th Manila Day. Held at Rajasulayman, Roxas
+                Boulevard, June 21 2015.
+              </p>
+              <p class="graphicDescription">
+                This graphic is a poster, used to advertise the 444th Manila
+                Day. Featuring the Parokya ni Edgar, Silent Sanctuary and
+                Junior New System as the performer and food competition and
+                bazaar that makes the event alive. Held at Rajasulayman, Roxas
+                Boulevard, June 21 2015.
+              </p>
+            </div>
+          </div>
+          <!--TEAM LEGACY LOGO-->
+          <div class="graphicBox">
+            <img src="/images/team-legacy.png" width="160rem" />
+            <div class="graphicInformation">
+              <span class="graphicName"><a href="javascript:void(0)"
+                  onclick="openModal('/images/team-legacy.png', 'Team Legacy Logo', 1)" class="graphicLink">Team Legacy
+                  Logo <i class="fa-solid fa-expand"></i></a></span>
+              <p>
+                Logo to represent two candidates (Erap and Amado) for local
+                election in Manila.
+              </p>
+              <p class="graphicDescription">
+                This graphic is a logo, it represent the two candidates (Erap
+                for mayor and Amado for vice-mayor) for their Team Legacy,
+                used in local campaign election in Manila.
+              </p>
+            </div>
+          </div>
+          <!--MAYONAISE POSTER-->
+          <div class="graphicBox">
+            <img src="/images/araw-ng-maynila-poster-2018.jpg" width="160rem" />
+            <div class="graphicInformation">
+              <span class="graphicName"><a href="javascript:void(0)"
+                  onclick="openModal('/images/araw-ng-maynila-poster-2018.jpg', '447th Manila Day', 2)"
+                  class="graphicLink">447th Manila Day <i class="fa-solid fa-expand"></i></a></span>
+              <p>
+                Poster for 447th Manila Day. Held at Rajasulayman, Roxas
+                Boulevard, June 23 2018.
+              </p>
+              <p class="graphicDescription">
+                This graphic is a poster, used to advertise the 447th Manila
+                Day. Featuring the Mayonnaise, 727 Clique and other Bands as
+                the performers of the night. Held at Rajasulayman, Roxas
+                Boulevard, June 23, 2018.
+              </p>
+            </div>
+          </div>
+          <!--MANILA YOUTH BUREAU LOGO-->
+          <div class="graphicBox">
+            <img src="/images/ydwb.png" width="160rem" />
+            <div class="graphicInformation">
+              <span class="graphicName"><a href="javascript:void(0)"
+                  onclick="openModal('/images/ydwb.png', 'Manila Youth Development and Welfare Bureau Logo', 3)"
+                  class="graphicLink">Manila Youth Development and Welfare Bureau Logo
+                  <i class="fa-solid fa-expand"></i></a></span>
+              <p>
+                Representing the Youth Development and Welfare Bureau in
+                Manila City Hall.
+              </p>
+              <p class="graphicDescription">
+                This graphic is a logo, it represent the Manila Youth
+                Development and Welfare Bureau in Manila City Hall. The bureau
+                aims to gather and unite the youth organizations in Manila to
+                have a good project for the youth on thier each respective
+                barangay. The bureau also handles the Sangguniang Kabataan -
+                SK in Manila.
+              </p>
+            </div>
+          </div>
+          <!--RANN-S-->
+          <div class="graphicBox">
+            <img src="/images/product-flyer.png" width="160rem" />
+            <div class="graphicInformation">
+              <span class="graphicName"><a href="javascript:void(0)"
+                  onclick="openModal('/images/product-flyer.png','Product Flyer', 4 )" class="graphicLink">Product Flyer
+                  <i class="fa-solid fa-expand"></i></a></span>
+              <p>
+                Used to advertise product for new and existing car accessories
+                in various brands.
+              </p>
+              <p class="graphicDescription">
+                This graphic is a product flyer, used to advertise new car
+                accessories for every brands of vehicle. The flyer contains
+                specification and how they look on a vehicle.
+              </p>
+            </div>
           </div>
         </div>
       </div>
+    </div>
+  </section>
 
-      <div class="container">
+  <!-- Contact -->
+  <section id="contact-section" data-aos="fade-in">
+    <div class="container">
+      <div id="contact-wrapper">
         <div class="title-section">
           <div class="title">
-            <h3>
-              <span class="number">04.</span><span> Featured projects</span>
-            </h3>
+            <h3><span class="number">05.</span><span> Contact Me</span></h3>
           </div>
           <div class="bar"></div>
         </div>
-
-        <ul id="projects-menu-wrapper">
-          <li onclick="slideWeb()" class="projectMenu">
-            <a>Web Development</a>
-          </li>
-          <li onclick="slideGraphic()" class="projectMenu">
-            <a>Graphics</a>
-          </li>
-        </ul>
-
-        <div class="row webAndGraphicsBoxWrapper">
-          <div class="websiteMainContainer">
-            <!--PERSONAL TRAINOR-->
-            <div class="websiteBox">
-              <img src="/images/personal-trainor-website.png" width="260rem" />
-              <div class="websiteInformation">
-                <span class="websiteName"
-                  ><a
-                    href="https://personal-trainor.netlify.app"
-                    target="_blank"
-                    class="websiteLink"
-                    >Personal Trainor
-                    <i class="fa-solid fa-arrow-up-right-from-square"></i></a
-                ></span>
-                <p>
-                  Discover the art of bodyweight training through expert
-                  guidance, workout routines, and nutrition tips.
-                </p>
-              </div>
-            </div>
-            <!--HUEPRINT CUSTOMIZE T-SHIRT-->
-            <div class="websiteBox">
-              <img
-                src="/images/custom-shirt-ecommerce-website.png"
-                width="260rem"
-              />
-              <div class="websiteInformation">
-                <span class="websiteName"
-                  ><a
-                    href="https://customized-printed-tees.netlify.app"
-                    target="_blank"
-                    class="websiteLink"
-                    >Hueprint E-commerce
-                    <i class="fa-solid fa-arrow-up-right-from-square"></i></a
-                ></span>
-                <p>
-                  Express Yourself with Our Custom T-Shirt! Dive into a endless
-                  possibilities as you design your own T-shirt.
-                </p>
-              </div>
-            </div>
-            <!--MAKEUP ARTIST-->
-            <div class="websiteBox">
-              <img src="/images/makeup-artist-website.png" width="260rem" />
-              <div class="websiteInformation">
-                <span class="websiteName"
-                  ><a
-                    href="https://angelies-beauty-studio.netlify.app"
-                    target="_blank"
-                    class="websiteLink"
-                    >Angelie's Beauty Studio
-                    <i class="fa-solid fa-arrow-up-right-from-square"></i></a
-                ></span>
-                <p>
-                  Indulge in Elegance at Our Beauty Studio. Step into a
-                  sanctuary of glamour where artistry meets relaxation.
-                </p>
-              </div>
-            </div>
-            <!--ARTIST-->
-            <div class="websiteBox">
-              <img src="/images/artist-website.png" width="260rem" />
-              <div class="websiteInformation">
-                <span class="websiteName"
-                  ><a
-                    href="https://leonard-artist.netlify.app"
-                    target="_blank"
-                    class="websiteLink"
-                    >Leonard Artist
-                    <i class="fa-solid fa-arrow-up-right-from-square"></i></a
-                ></span>
-                <p>
-                  Explore an online portfolio that showcases a vibrant and
-                  mesmerizing paintings to evocative sculptures.
-                </p>
-              </div>
-            </div>
-            <!--APPLE-->
-            <div class="websiteBox">
-              <img
-                src="/images/apple-website-for-educational-purpose-only.png"
-                width="260rem"
-              />
-              <div class="websiteInformation">
-                <span class="websiteName"
-                  ><a
-                    href="https://apple-study-website.netlify.app"
-                    target="_blank"
-                    class="websiteLink"
-                    >Apple
-                    <i class="fa-solid fa-arrow-up-right-from-square"></i></a
-                ></span>
-                <p>
-                  Apple website - This is more than apple website; it's a
-                  gateway to knowledge (for study purposes only).
-                </p>
-              </div>
-            </div>
-            <!--CAKE SHOP-->
-            <div class="websiteBox">
-              <img src="/images/cake-shop-website.png" width="260rem" />
-              <div class="websiteInformation">
-                <span class="websiteName"
-                  ><a
-                    href="https://cakes-pies-and-tarts-shop.netlify.app"
-                    target="_blank"
-                    class="websiteLink"
-                    >Cake Shop
-                    <i class="fa-solid fa-arrow-up-right-from-square"></i></a
-                ></span>
-                <p>
-                  From elegant wedding cakes to birthday creations, our
-                  confections are a celebration of taste and aesthetics.
-                </p>
-              </div>
-            </div>
-            <!--CASE STUDY-->
-            <div class="websiteBox">
-              <img src="/images/case-study.png" width="260rem" />
-              <div class="websiteInformation">
-                <span class="websiteName"
-                  ><a
-                    href="https://everise-case-study.netlify.app"
-                    target="_blank"
-                    class="websiteLink"
-                    >Case Study
-                    <i class="fa-solid fa-arrow-up-right-from-square"></i></a
-                ></span>
-                <p>
-                  Learn from the best, apply with confidence, and let success
-                  stories guide your path.
-                </p>
-              </div>
-            </div>
-            <!--CAR ACCESSORIES-->
-            <div class="websiteBox">
-              <img src="/images/rann-s-car-accessories.png" width="260rem" />
-              <div class="websiteInformation">
-                <span class="websiteName"
-                  ><a
-                    href="https://rann-s-car-accessories.netlify.app"
-                    target="_blank"
-                    class="websiteLink"
-                    >Rann-S Car Accesories
-                    <i class="fa-solid fa-arrow-up-right-from-square"></i></a
-                ></span>
-                <p>
-                  Discover the perfect additions for your automotive passion at
-                  our Car Accessories Website.
-                </p>
-              </div>
-            </div>
-            <!--REGISTRATION FOR FUN RUN-->
-            <div class="websiteBox">
-              <img src="/images/run-for-earth.png" width="260rem" />
-              <div class="websiteInformation">
-                <span class="websiteName"
-                  ><a
-                    href="https://run-for-earth.netlify.app"
-                    target="_blank"
-                    class="websiteLink"
-                    >Run For Earth Registration Portal
-                    <i class="fa-solid fa-arrow-up-right-from-square"></i></a
-                ></span>
-                <p>
-                  Our user-friendly website offers a hassle-free way to register
-                  and manage information.
-                </p>
-              </div>
-            </div>
-            <!--FAME MARKET DAYS-->
-            <div class="websiteBox">
-              <img src="/images/fame-market-days.png" width="260rem" />
-              <div class="websiteInformation">
-                <span class="websiteName"
-                  ><a
-                    href="https://fame-market-days.netlify.app"
-                    target="_blank"
-                    class="websiteLink"
-                    >Fame+ Market Days
-                    <i class="fa-solid fa-arrow-up-right-from-square"></i></a
-                ></span>
-                <p>
-                  Unleash the power of visual appeal and professionalism in your
-                  emails with our curated templates.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="graphicsMainContainer">
-            <!--PAROKYA NI EDGAR POSTER-->
-            <div class="graphicBox">
-              <img
-                src="/images/araw-ng-maynila-poster-2015.png"
-                width="160rem"
-              />
-              <div class="graphicInformation">
-                <span class="graphicName"
-                  ><a
-                    href="javascript:void(0)"
-                    onclick="openModal('/images/araw-ng-maynila-poster-2015.png', '444th Manila Day', 0)"
-                    class="graphicLink"
-                    >444th Manila Day <i class="fa-solid fa-expand"></i></a
-                ></span>
-                <p>
-                  Poster for 444th Manila Day. Held at Rajasulayman, Roxas
-                  Boulevard, June 21 2015.
-                </p>
-                <p class="graphicDescription">
-                  This graphic is a poster, used to advertise the 444th Manila
-                  Day. Featuring the Parokya ni Edgar, Silent Sanctuary and
-                  Junior New System as the performer and food competition and
-                  bazaar that makes the event alive. Held at Rajasulayman, Roxas
-                  Boulevard, June 21 2015.
-                </p>
-              </div>
-            </div>
-            <!--TEAM LEGACY LOGO-->
-            <div class="graphicBox">
-              <img src="/images/team-legacy.png" width="160rem" />
-              <div class="graphicInformation">
-                <span class="graphicName"
-                  ><a
-                    href="javascript:void(0)"
-                    onclick="openModal('/images/team-legacy.png', 'Team Legacy Logo', 1)"
-                    class="graphicLink"
-                    >Team Legacy Logo <i class="fa-solid fa-expand"></i></a
-                ></span>
-                <p>
-                  Logo to represent two candidates (Erap and Amado) for local
-                  election in Manila.
-                </p>
-                <p class="graphicDescription">
-                  This graphic is a logo, it represent the two candidates (Erap
-                  for mayor and Amado for vice-mayor) for their Team Legacy,
-                  used in local campaign election in Manila.
-                </p>
-              </div>
-            </div>
-            <!--MAYONAISE POSTER-->
-            <div class="graphicBox">
-              <img
-                src="/images/araw-ng-maynila-poster-2018.jpg"
-                width="160rem"
-              />
-              <div class="graphicInformation">
-                <span class="graphicName"
-                  ><a
-                    href="javascript:void(0)"
-                    onclick="openModal('/images/araw-ng-maynila-poster-2018.jpg', '447th Manila Day', 2)"
-                    class="graphicLink"
-                    >447th Manila Day <i class="fa-solid fa-expand"></i></a
-                ></span>
-                <p>
-                  Poster for 447th Manila Day. Held at Rajasulayman, Roxas
-                  Boulevard, June 23 2018.
-                </p>
-                <p class="graphicDescription">
-                  This graphic is a poster, used to advertise the 447th Manila
-                  Day. Featuring the Mayonnaise, 727 Clique and other Bands as
-                  the performers of the night. Held at Rajasulayman, Roxas
-                  Boulevard, June 23, 2018.
-                </p>
-              </div>
-            </div>
-            <!--MANILA YOUTH BUREAU LOGO-->
-            <div class="graphicBox">
-              <img src="/images/ydwb.png" width="160rem" />
-              <div class="graphicInformation">
-                <span class="graphicName"
-                  ><a
-                    href="javascript:void(0)"
-                    onclick="openModal('/images/ydwb.png', 'Manila Youth Development and Welfare Bureau Logo', 3)"
-                    class="graphicLink"
-                    >Manila Youth Development and Welfare Bureau Logo
-                    <i class="fa-solid fa-expand"></i></a
-                ></span>
-                <p>
-                  Representing the Youth Development and Welfare Bureau in
-                  Manila City Hall.
-                </p>
-                <p class="graphicDescription">
-                  This graphic is a logo, it represent the Manila Youth
-                  Development and Welfare Bureau in Manila City Hall. The bureau
-                  aims to gather and unite the youth organizations in Manila to
-                  have a good project for the youth on thier each respective
-                  barangay. The bureau also handles the Sangguniang Kabataan -
-                  SK in Manila.
-                </p>
-              </div>
-            </div>
-            <!--RANN-S-->
-            <div class="graphicBox">
-              <img src="/images/product-flyer.png" width="160rem" />
-              <div class="graphicInformation">
-                <span class="graphicName"
-                  ><a
-                    href="javascript:void(0)"
-                    onclick="openModal('/images/product-flyer.png','Product Flyer', 4 )"
-                    class="graphicLink"
-                    >Product Flyer <i class="fa-solid fa-expand"></i></a
-                ></span>
-                <p>
-                  Used to advertise product for new and existing car accessories
-                  in various brands.
-                </p>
-                <p class="graphicDescription">
-                  This graphic is a product flyer, used to advertise new car
-                  accessories for every brands of vehicle. The flyer contains
-                  specification and how they look on a vehicle.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Contact -->
-    <section id="contact-section" data-aos="fade-in">
-      <div class="container">
-        <div id="contact-wrapper">
-          <div class="title-section">
-            <div class="title">
-              <h3><span class="number">05.</span><span> Contact Me</span></h3>
-            </div>
-            <div class="bar"></div>
-          </div>
-          <div id="contact-content">
-            <h2 id="contact-text-heading">Lets build connection.</h2>
-            <p>
-              Whether your looking to hire a Web Developer, Freelancer, or
-              Consult
-              <br />
-              about web development, don't hesitate to reach me,<br />
-              I'm here to help you.
-            </p>
-
-            <div id="cta-wrapper">
-              <div id="cta-bg">
-                <a id="emailBtn" href="mailto:calixtomantalii@gmail.com">
-                  PING ME AN EMAIL</a
-                >
-              </div>
-            </div>
+        <div id="contact-content">
+          <h2 id="contact-text-heading">Lets build connection.</h2>
+          <p>
+            Whether your looking to hire a Web Developer, Freelancer, or
+            Consult
             <br />
-            <div id="socials">
-              <!-- <p>Social media accounts</p> -->
-              <ul>
-                <li>
-                  <a
-                    title="Github"
-                    href="https://github.com/calixtofrancismantalii"
-                    target="_blank"
-                    ><i class="fa-brands fa-github"></i
-                  ></a>
-                </li>
-                <li>
-                  <a
-                    title="Netlify"
-                    href="https://app.netlify.com/teams/calixtofrancismantalii/overview"
-                    target="_blank"
-                    ><i class="fa-solid fa-circle-nodes"></i
-                  ></a>
-                </li>
-                <li>
-                  <a
-                    title="LinkedIn"
-                    href="https://www.linkedin.com/in/calixto-mantal/"
-                    target="_blank"
-                    ><i class="fa-brands fa-linkedin"></i
-                  ></a>
-                </li>
-                <li>
-                  <a
-                    title="Facebook"
-                    href="https://web.facebook.com/calixto.mantal"
-                    target="_blank"
-                    ><i class="fa-brands fa-facebook"></i
-                  ></a>
-                </li>
-                <li>
-                  <a
-                    title="Instagram"
-                    href="https://www.instagram.com/calixto_mantal/"
-                    target="_blank"
-                    ><i class="fa-brands fa-instagram"></i
-                  ></a>
-                </li>
-              </ul>
+            about web development, don't hesitate to reach me,<br />
+            I'm here to help you.
+          </p>
+
+          <div id="cta-wrapper">
+            <div id="cta-bg">
+              <a id="emailBtn" href="mailto:calixtomantalii@gmail.com">
+                PING ME AN EMAIL</a>
             </div>
-            <!-- <div>
+          </div>
+          <br />
+          <div id="socials">
+            <!-- <p>Social media accounts</p> -->
+            <ul>
+              <li>
+                <a title="Github" href="https://github.com/calixtofrancismantalii" target="_blank"><i
+                    class="fa-brands fa-github"></i></a>
+              </li>
+              <li>
+                <a title="Netlify" href="https://app.netlify.com/teams/calixtofrancismantalii/overview"
+                  target="_blank"><i class="fa-solid fa-circle-nodes"></i></a>
+              </li>
+              <li>
+                <a title="LinkedIn" href="https://www.linkedin.com/in/calixto-mantal/" target="_blank"><i
+                    class="fa-brands fa-linkedin"></i></a>
+              </li>
+              <li>
+                <a title="Facebook" href="https://web.facebook.com/calixto.mantal" target="_blank"><i
+                    class="fa-brands fa-facebook"></i></a>
+              </li>
+              <li>
+                <a title="Instagram" href="https://www.instagram.com/calixto_mantal/" target="_blank"><i
+                    class="fa-brands fa-instagram"></i></a>
+              </li>
+            </ul>
+          </div>
+          <!-- <div>
               <ul>
                 <li>Contact no. : 0928 479 6451</li>
                 <li>Email : calixtomantalii@gmail.com</li>
                 <li>Address :142 J. Marzan St. Sampaloc Manila</li>
               </ul>
             </div> -->
-          </div>
         </div>
       </div>
-    </section>
-
-    <!--Footer-->
-    <div class="container">
-      <footer>
-        <div>
-          <ul>
-            <li>
-              Copyright ©2023 - 2024 Calixto Mantal. All rights reserved. v.1
-            </li>
-            <li>Privacy policy</li>
-            <!-- <li>Terms and condition</li> -->
-          </ul>
-        </div>
-      </footer>
     </div>
+  </section>
 
-    <script src="js/index.js"></script>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script src="js/workexperience.js"></script>
-    <script src="js/projects.js"></script>
-    <script>
-      AOS.init();
-    </script>
-  </body>
+  <!--Footer-->
+  <div class="container">
+    <footer>
+      <div>
+        <ul>
+          <li>
+            Copyright ©2023 - 2024 Calixto Mantal. All rights reserved. v.1
+          </li>
+          <li>Privacy policy</li>
+          <!-- <li>Terms and condition</li> -->
+        </ul>
+      </div>
+    </footer>
+  </div>
+
+  <script src="js/index.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="js/workexperience.js"></script>
+  <script src="js/projects.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
 </html>
