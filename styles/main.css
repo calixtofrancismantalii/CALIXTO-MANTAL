@@ -198,12 +198,23 @@ nav ul li a {
   justify-content: flex-start;
   padding-left: 10px;
 }
-#home #hero-section .text-image-wrapper #hero-text .show-more-button .btn-wrapper {
+#home
+  #hero-section
+  .text-image-wrapper
+  #hero-text
+  .show-more-button
+  .btn-wrapper {
   border: solid 1px #48e9f1;
   background-color: #48e9f1;
   width: 45%;
 }
-#home #hero-section .text-image-wrapper #hero-text .show-more-button .btn-wrapper button {
+#home
+  #hero-section
+  .text-image-wrapper
+  #hero-text
+  .show-more-button
+  .btn-wrapper
+  button {
   width: 100% !important;
   background-color: #101c37 !important;
 }
@@ -276,31 +287,58 @@ nav ul li a {
 #work-experience-section #work-experience-wrapper .content-wrapper #year-menu {
   width: 20%;
 }
-#work-experience-section #work-experience-wrapper .content-wrapper #year-menu ul #year-menu-arrow-down {
+#work-experience-section
+  #work-experience-wrapper
+  .content-wrapper
+  #year-menu
+  ul
+  #year-menu-arrow-down {
   display: none;
 }
-#work-experience-section #work-experience-wrapper .content-wrapper #year-menu ul .active {
+#work-experience-section
+  #work-experience-wrapper
+  .content-wrapper
+  #year-menu
+  ul
+  .active {
   border-left: solid 2px #48e9f1;
   color: #48e9f1;
 }
-#work-experience-section #work-experience-wrapper .content-wrapper #year-menu ul li {
+#work-experience-section
+  #work-experience-wrapper
+  .content-wrapper
+  #year-menu
+  ul
+  li {
   padding: 20px 12px;
   color: rgba(148, 163, 184, 0.6705882353);
   font-size: 0.9rem;
   border-left: solid 2px rgba(177, 179, 182, 0.2352941176);
   cursor: pointer;
 }
-#work-experience-section #work-experience-wrapper .content-wrapper #year-menu ul li:hover:not(.active) {
+#work-experience-section
+  #work-experience-wrapper
+  .content-wrapper
+  #year-menu
+  ul
+  li:hover:not(.active) {
   border-left: solid 2px #48e9f1;
   color: #48e9f1;
 }
-#work-experience-section #work-experience-wrapper .content-wrapper #year-description {
+#work-experience-section
+  #work-experience-wrapper
+  .content-wrapper
+  #year-description {
   height: auto !important;
   width: 80%;
   position: relative;
   overflow: hidden;
 }
-#work-experience-section #work-experience-wrapper .content-wrapper #year-description .work-experience-card-wrapper {
+#work-experience-section
+  #work-experience-wrapper
+  .content-wrapper
+  #year-description
+  .work-experience-card-wrapper {
   background-color: #102340;
   border: solid 1px #0b1928;
   padding: 20px;
@@ -310,28 +348,62 @@ nav ul li a {
   width: 93%;
   margin-bottom: 15px;
 }
-#work-experience-section #work-experience-wrapper .content-wrapper #year-description .work-experience-card-wrapper .position-and-company {
+#work-experience-section
+  #work-experience-wrapper
+  .content-wrapper
+  #year-description
+  .work-experience-card-wrapper
+  .position-and-company {
   color: #e2e8f0;
   font-size: 16px;
 }
-#work-experience-section #work-experience-wrapper .content-wrapper #year-description .work-experience-card-wrapper .position-and-company .dash {
+#work-experience-section
+  #work-experience-wrapper
+  .content-wrapper
+  #year-description
+  .work-experience-card-wrapper
+  .position-and-company
+  .dash {
   color: #48e9f1;
 }
-#work-experience-section #work-experience-wrapper .content-wrapper #year-description .work-experience-card-wrapper .position-and-company .company {
+#work-experience-section
+  #work-experience-wrapper
+  .content-wrapper
+  #year-description
+  .work-experience-card-wrapper
+  .position-and-company
+  .company {
   color: #48e9f1;
   text-decoration: none;
 }
-#work-experience-section #work-experience-wrapper .content-wrapper #year-description .work-experience-card-wrapper .position-and-company .company:hover {
+#work-experience-section
+  #work-experience-wrapper
+  .content-wrapper
+  #year-description
+  .work-experience-card-wrapper
+  .position-and-company
+  .company:hover {
   border-bottom: solid 1px #48e9f1;
 }
-#work-experience-section #work-experience-wrapper .content-wrapper #year-description .work-experience-card-wrapper .work-description {
+#work-experience-section
+  #work-experience-wrapper
+  .content-wrapper
+  #year-description
+  .work-experience-card-wrapper
+  .work-description {
   display: flex;
   flex-wrap: wrap;
   list-style-type: "- ";
   padding-top: 20px;
   padding-left: 20px;
 }
-#work-experience-section #work-experience-wrapper .content-wrapper #year-description .work-experience-card-wrapper .work-description li {
+#work-experience-section
+  #work-experience-wrapper
+  .content-wrapper
+  #year-description
+  .work-experience-card-wrapper
+  .work-description
+  li {
   color: #94a3b8;
   margin-bottom: 10px;
   border-radius: 5px;
@@ -357,12 +429,21 @@ nav ul li a {
   margin-top: 10px;
   display: flex;
 }
-#languages-and-skills-section .row-app-icon .col-app-icons .icon-wrapper .icon-frame {
+#languages-and-skills-section
+  .row-app-icon
+  .col-app-icons
+  .icon-wrapper
+  .icon-frame {
   width: 45px;
   height: 45px;
   padding: 0px 3px;
 }
-#languages-and-skills-section .row-app-icon .col-app-icons .icon-wrapper .icon-frame img {
+#languages-and-skills-section
+  .row-app-icon
+  .col-app-icons
+  .icon-wrapper
+  .icon-frame
+  img {
   width: 100%;
 }
 
@@ -412,28 +493,59 @@ nav ul li a {
   justify-content: center;
   width: 70%;
 }
-#projects-section #graphics-modal #modal-content #largeImageWrapper #largeImage {
+#projects-section
+  #graphics-modal
+  #modal-content
+  #largeImageWrapper
+  #largeImage {
   width: auto;
   height: 400px;
 }
-#projects-section #graphics-modal #modal-content #largeImageWrapper #graphic-description-wrapper {
+#projects-section
+  #graphics-modal
+  #modal-content
+  #largeImageWrapper
+  #graphic-description-wrapper {
   padding: 20px 30px;
 }
-#projects-section #graphics-modal #modal-content #largeImageWrapper #graphic-description-wrapper .show-more-button {
+#projects-section
+  #graphics-modal
+  #modal-content
+  #largeImageWrapper
+  #graphic-description-wrapper
+  .show-more-button {
   align-items: flex-start;
 }
-#projects-section #graphics-modal #modal-content #largeImageWrapper #graphic-description-wrapper .show-more-button .btn-wrapper {
+#projects-section
+  #graphics-modal
+  #modal-content
+  #largeImageWrapper
+  #graphic-description-wrapper
+  .show-more-button
+  .btn-wrapper {
   width: 70%;
   background-color: inherit !important;
   border-top: none;
   border-left: none;
 }
-#projects-section #graphics-modal #modal-content #largeImageWrapper #graphic-description-wrapper .show-more-button .btn-wrapper button {
+#projects-section
+  #graphics-modal
+  #modal-content
+  #largeImageWrapper
+  #graphic-description-wrapper
+  .show-more-button
+  .btn-wrapper
+  button {
   background-color: inherit !important;
   width: 100% !important;
   font-size: 1.3rem;
 }
-#projects-section #graphics-modal #modal-content #largeImageWrapper #graphic-description-wrapper #graphic-description {
+#projects-section
+  #graphics-modal
+  #modal-content
+  #largeImageWrapper
+  #graphic-description-wrapper
+  #graphic-description {
   margin: 20px 0px 30px;
   line-height: 30px;
 }
@@ -491,7 +603,10 @@ nav ul li a {
   width: 100%;
   height: inherit;
 }
-#projects-section .featured-graphics-wrapper .graphic-cards .graphic-info-wrapper {
+#projects-section
+  .featured-graphics-wrapper
+  .graphic-cards
+  .graphic-info-wrapper {
   text-align: center;
   padding: 10px;
 }
@@ -552,7 +667,11 @@ nav ul li a {
   width: 100%;
   padding: 20px;
 }
-#projects-section .graphicsMainContainer .graphicBox .graphicInformation .graphicDescription {
+#projects-section
+  .graphicsMainContainer
+  .graphicBox
+  .graphicInformation
+  .graphicDescription {
   display: none;
 }
 #projects-section .graphicsMainContainer .graphicBox .graphicName {
@@ -612,7 +731,12 @@ nav ul li a {
   width: 29rem;
   height: 86px;
 }
-#contact-section #contact-wrapper #contact-content #cta-wrapper #cta-bg #emailBtn {
+#contact-section
+  #contact-wrapper
+  #contact-content
+  #cta-wrapper
+  #cta-bg
+  #emailBtn {
   display: block;
   padding-top: 20px;
   text-decoration: none;
@@ -629,7 +753,12 @@ nav ul li a {
   transition: 0.4s;
   font-size: 1.9rem;
 }
-#contact-section #contact-wrapper #contact-content #cta-wrapper #cta-bg #emailBtn:hover {
+#contact-section
+  #contact-wrapper
+  #contact-content
+  #cta-wrapper
+  #cta-bg
+  #emailBtn:hover {
   border-radius: 3px;
   margin-top: 0px;
   margin-left: 0px;
@@ -672,4 +801,4 @@ footer {
   display: flex;
   justify-content: center;
   text-align: center;
-}/*# sourceMappingURL=main.css.map */
+} /*# sourceMappingURL=main.css.map */
